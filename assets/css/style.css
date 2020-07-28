@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Jim+Nightshade&family=Lato:wght@100;300;400;700;900&family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+
+/*---------------------------------------------------Colors*/
+.bg-black{
+    background-color: #000000;
+}
+
+.bg-dark-custom{
+    background-color: #000000;
+}
+
+.red {
+    color: #ff8080;
+}
+
+.yellow {
+    color: #ffff66;
+}
+
+.blue {
+    color: #80ccff;
+}
+
+small {
+    color: #b1afaf;
+}
+
+/*---------------------------------------------------Typography*/
+.title-museum{
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  color: #fafafa;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.title-museum-small{
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  color: #fafafa;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+nav div::first-letter{
+    font-weight: 700;
+    font-size: 150%;
+}
+
+nav div{
+    display: inline-block;
+}
+
+.text{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #fafafa;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.h3-title{
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  color: #fafafa;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.text-description{
+    font-size: 16px;
+    font-weight: 200;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.link-style {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #fafafa;
+  text-decoration: none;
+}
+
+
+/*---------------------------------------------------Body*/
+
+body {
+height: 100%;
+min-height: 100%;
+
+}
+
+
+/*---------------------------------------------------Header*/
+header {
+   margin: 0;
+   padding: 0;
+   height: 12vh;
+}
+
+.title-museum,
+.title-museum-small {
+    display: inline;
+    padding-left: 20px;
+}
+
+h1 {
+    margin: 0;
+    padding-bottom: 0;
+    line-height: 2;
+}
+
+.light{
+    font-weight: 300;
+    font-size: 50%;
+}
+
+ul li {
+    display: inline;
+    margin: 25px 0px 0px 20px;
+    line-height: 2;
+}
+
+.link-style:hover {
+    font-size: 700;
+}
+
+/*---------------------------------------------------Hero*/
+
+main.container-fluid {
+    margin: 0 0 0 0;
+    padding-top: 12vh;
+    max-width: 100%;
+    
+    
+}
+
+.hero-image-style {
+    object-fit: cover;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    max-height: 650px;
+    position: relative;
+}
+
+figcaption {
+    text-align: right;
+}
+
+/*.message-circle{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #fafafa;
+    color: #000000;
+    z-index: 1;
+    position: absolute;
+    display: inline-block;
+}*/
+
+/*---------------------------------------------------Blockquote*/
+
+.blockquote-style{
+    background-color: #ff8080;
+    border-radius: 10px;
+    display: center;
+    padding: 10px;
+    margin: 50px 100px 30px 100px;
+    text-align: center;
+}
+
+.blockquote-text {
+   color: #fafafa;
+   font-family: "Montserrat", sans-serif;
+   letter-spacing: 4px;
+   line-height: 2;
+   font-size: 20px;
+}
+
+.signature {
+    font-family: "Jim Nightshade", cursive;
+    font-size: 18px;
+    text-align: right;
+}
+
+/*---------------------------------------------------Description/Icons*/
+
+.icon {
+    font-size: 20px;
+    color: #b1afaf;
+    
+}
+
+/*---------------------------------------------------Footer*/
+
+footer {
+    position: relative;
+    padding-top: 30px;
+}
+
