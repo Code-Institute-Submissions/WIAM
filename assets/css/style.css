@@ -121,6 +121,15 @@ nav div{
   font-size: 20px;
 }
 
+.text-grid {
+font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #fafafa;
+  letter-spacing: 4px;
+  font-size: 20px;
+  margin: auto 15px;
+}
+
 .social-text{
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
@@ -230,6 +239,12 @@ ul li {
 
 /*---------------------------------------------------Hero*/
 
+main {
+    margin-top: 15vh;
+}
+
+/*---------------------------------------------------Hero*/
+
 main.container-fluid {
     margin: 0 0 0 0;
     padding-top: 12vh;
@@ -322,7 +337,6 @@ hr{
 }
 /*---------------------------------------------------Collection*/
 
-.row-collection,
 .col-collection {
    height: 400px;
 }
