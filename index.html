@@ -13,14 +13,14 @@
 	<header class="bg-black fixed-top">
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark-custom">
 
-            <h1 class="navbar-brand title-museum-small d-sm-block d-md-none"> <span class="red">w</span>.<span class="yellow">i</span>.<span class="blue">a</span>.<span class="light">museum</span> </h1>
+            <div class="navbar-brand title-museum-small d-sm-block d-md-none"> <span class="red">w</span>.<span class="yellow">i</span>.<span class="blue">a</span>.<span class="light">museum</span> </div>
 
-			<h1 class="navbar-brand title-museum d-none d-md-block">
+			<div class="navbar-brand title-museum d-none d-md-block">
 				<div class="red">Women</div>
 				<div class="yellow">in</div>
 				<div class="blue">art</div>
 				<div>museum</div>
-			</h1>
+			</div>
 
             
 	
@@ -29,10 +29,10 @@
 							  </button>
 			<div class="collapse navbar-collapse" id="navbarNavDropdown">
 				<ul class="navbar-nav ml-auto">
-					<li class="active nav-item"><a href="#" class="link-style nav-link">Home</a></li>
-					<li class="nav-item"><a href="#" class="link-style nav-link">Collection</a></li>
-					<li class="nav-item"><a href="#" class="link-style nav-link">The Museum</a></li>
-					<li class="nav-item"><a href="#" class="link-style nav-link">Book a visit</a></li>
+					<li class="active nav-item"><a href="index.html" class="link-style nav-link">Home</a></li>
+					<li class="nav-item"><a href="collection.html" class="link-style nav-link">Collection</a></li>
+					<li class="nav-item"><a href="museum.html" class="link-style nav-link">The Museum</a></li>
+					<li class="nav-item"><a href="book.html" class="link-style nav-link">Book a visit</a></li>
 				</ul>
 			</div>
 		</nav>
@@ -40,14 +40,21 @@
 
 	<main class="container container-fluid">
     <div class="hero-image">
+    <figure>
 	<img src="assets/images/frida.jpg" class="hero-image-style" alt="Frida Kahlo photographed by Nickolas-Muray"/>
     <figcaption><small>Frida Kahlo with Olmec figurine, 1939. Photograph Nickolas Muray. ©Nickolas-Muray-Photo-Archives</small></figcaption>
-    </div>
+    </figure></div>
 
     <div class="blockquote blockquote-style d-none d-md-block text-center">
     <blockquote class="blockquote-text"> "My illustrious lordship, I’ll show you what a woman can do." <p class="signature"> Artemisia Gentileschi</p></blockquote>
     </div>
     <div class="container">
+       <div class="title-museum-body text-center">
+				<div class="word-title red">Women</div>
+				<div class="word-title yellow">in</div>
+				<div class="word-title blue">art</div>
+				<div class="white">museum</div>
+	   </div>
     <h3 class="h3-title">Welcome to a unique museum entirely dedicated to women in art</h3>
     <hr>
     <p class="text text-description">A journey through time and space to discover the power of female creativity.</p>
@@ -83,52 +90,64 @@
 	</div>
     -->
     <!--UPCOMING EXHIBITIONS-->
-
+    <section>
+    <h2 class="h2-title">Upcoming exhibitions</h2>
 	<div class="row">
 		<div class="col-12 col-md-6 col-lg-4">
 			<div class="card card-size">
+                <figure>
 				<img src="assets/images/yayoi.jpg" class="card-img-top card-cover" alt="Yayoi Kusama">
 				<figcaption>
-					<small>Fotocredits: Courtesy Ota Fine Arts, Tokyo/Singapore/Shanghai and Victoria Miro, London/Venice© YAYOI KUSAMA</small>
-				</figcaption>
+					<small>Fotocredits: Courtesy Ota Fine Arts, © YAYOI KUSAMA</small>
+				</figcaption></figure>
 				<div class="card-body">
 					<h5 class="card-title uppercase">Yayoi Kusama</h5>
 					<p class="card-text">27 September 2020 - 23 December 2020</p>
-					<a href="#" class="btn btn-dark">Book your ticket</a>
+					<a href="contact.html" class="btn btn-red uppercase">Book your ticket</a>
 				</div>
 			</div>
 		</div>
 		<div class="col-12 col-md-6 col-lg-4">
 			<div class="card card-size">
+            <figure>
 				<img src="assets/images/vivienne.jpg" class="card-img-top card-cover" alt="Vivienne Westwood">
 				<figcaption><small>
-	Derek Hudson/Getty Images</small></figcaption>
+	Derek Hudson/Getty Images</small></figcaption></figure>
 				<div class="card-body">
 					<h5 class="card-title uppercase">Vivienne Westwood</h5>
 					<p class="card-text">02 November 2020 - 02 February 2021.</p>
-					<a href="#" class="btn btn-dark">Book your ticket</a>
+					<a href="contact.html" class="btn btn-red uppercase">Book your ticket</a>
 				</div>
 			</div>
 		</div>
 		<div class="col-12 d-sm-block d-md-none d-lg-block col-lg-4">
 			<div class="card card-size">
+            <figure>
 				<img src="assets/images/janis.jpg" class="card-img-top card-cover" alt="Janis Joplin">
 				<figcaption><small>
-	©Barry Feinstein Photography Inc. 2019. All rights reserved</small></figcaption>
+	©Barry Feinstein Photography Inc. 2019. All rights reserved</small></figcaption></figure>
 				<div class="card-body">
 					<h5 class="card-title uppercase">Janis Joplin</h5>
 					<p class="card-text">05 January 2021 - 15 April 2021</p>
-					<a href="#" class="btn btn-dark">Book your ticket</a>
+					<a href="contact.html" class="btn btn-red uppercase">Book your ticket</a>
 				</div>
 			</div>
 		</div>
 	</div>
+    </section>
    </main>
 
 		<footer class="bg-black">
         <div class="text-center text-footer">
 			<h2 class="title-museum"><span class="red">Women</span> <span class="yellow">In</span> <span class="blue">Art</span> Museum</h2>
-			<p class="text"><a href="#" class="link-style"> Book now your visit </a></p>
+			<p class="text"><a href="#" class="link-style bold"> Book now your visit!</a></p>
+            <div class="social">
+            <p class="social-text">Stay updated with all our news:</p>
+            <a href="https://facebook.com" class="fa fa-facebook icon"></a>
+            <a href="https://twitter.com" class="fa fa-twitter icon"></a>
+            <a href="https://instagram.com" class="fa fa-instagram icon"></a>
+            <a href="https://youtube.com" class="fa fa-youtube icon"></a>
+            </div>
 			<small>&copy;KatiaDB 2020</small>
             </div>
 		</footer>
