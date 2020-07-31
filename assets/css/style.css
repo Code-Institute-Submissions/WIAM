@@ -69,7 +69,7 @@ small {
 .text-grid{
  color: #fafafa;
  } 
- 
+
 .text-grid-gray {
     color: #7e7d7d;
 }
@@ -240,7 +240,7 @@ ul li {
   font-size: 700;
 }
 
-/*---------------------------------------------------Hero*/
+/*---------------------------------------------------Main*/
 
 main {
   margin-top: 15vh;
@@ -347,6 +347,10 @@ hr {
   object-fit: cover;
 }
 
+.collection {
+    padding-bottom: 50px;
+}
+
 /*---------------------------------------------------Footer*/
 
 footer {
@@ -359,3 +363,11 @@ footer {
   color: #b1afaf;
   padding: 10px 30px;
 }
+
+/*---------------------------------------------------Media Queries*/
+
+@media (min-width: 992px) {
+    p .text-grid{
+       margin-left: 50px;
+    }
+ }
