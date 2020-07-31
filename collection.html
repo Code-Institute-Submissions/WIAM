@@ -1,165 +1,304 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
     <title>WIAM Women In Art Museum</title>
-</head>
+  </head>
 
-<body class="index bg-black">
-	<header class="bg-black fixed-top">
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark-custom">
+  <body class="index bg-black">
+    <header class="bg-black fixed-top">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark-custom">
+        <div class="navbar-brand title-museum-small d-sm-block d-md-none">
+          <span class="red">w</span>.<span class="yellow">i</span>.<span
+            class="blue"
+            >a</span
+          >.<span class="light">museum</span>
+        </div>
 
-            <div class="navbar-brand title-museum-small d-sm-block d-md-none"> <span class="red">w</span>.<span class="yellow">i</span>.<span class="blue">a</span>.<span class="light">museum</span> </div>
+        <div class="navbar-brand title-museum d-none d-md-block">
+          <div class="red">Women</div>
+          <div class="yellow">in</div>
+          <div class="blue">art</div>
+          <div>museum</div>
+        </div>
 
-			<div class="navbar-brand title-museum d-none d-md-block">
-				<div class="red">Women</div>
-				<div class="yellow">in</div>
-				<div class="blue">art</div>
-				<div>museum</div>
-			</div>
+        <button
+          class="navbar-toggler ml-auto"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <li class="active nav-item">
+              <a href="index.html" class="link-style nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="collection.html" class="link-style nav-link"
+                >Collection</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="museum.html" class="link-style nav-link">The Museum</a>
+            </li>
+            <li class="nav-item">
+              <a href="book.html" class="link-style nav-link">Book a visit</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
-            
-	
-			<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-							    <span class="navbar-toggler-icon"></span>
-							  </button>
-			<div class="collapse navbar-collapse" id="navbarNavDropdown">
-				<ul class="navbar-nav ml-auto">
-					<li class="active nav-item"><a href="index.html" class="link-style nav-link">Home</a></li>
-					<li class="nav-item"><a href="collection.html" class="link-style nav-link">Collection</a></li>
-					<li class="nav-item"><a href="museum.html" class="link-style nav-link">The Museum</a></li>
-					<li class="nav-item"><a href="book.html" class="link-style nav-link">Book a visit</a></li>
-				</ul>
-			</div>
-		</nav>
-	</header>
+    <main class="container-fluid">
+      <section>
+        <h2 class="h2-title">The collection</h2>
+        <div class="row row-collection no-gutters">
+          <div class="col-sm-12 col-md-6 col-lg-4 col-image col-collection">
+            <img
+              src="assets/images/lempicka.jpg"
+              class="img-collection"
+              alt="painting by Tamara de Lempicka"
+            />
+          </div>
 
-	<main class="container container-fluid">
+          <div
+            class="col-sm-12 col-md-6 col-lg-8 col-red col-collection d-flex"
+          >
+            <p class="text-grid d-flex justify-content-center align-items-center">
+              The biggest area of the museum is dedicated to paintings. <br />
+              Here you can find amazing works of art by Tamara de Lempicka,
+              Frida Kahlo, Georgia o´Keefe and many other artists.
+            </p>
+          </div>
+        </div>
 
-	<h2 class="h2-title">The collection</h2>
-	<div class="row row-collection no-gutters">
-		<div class="col-sm-12 col-md-6 col-lg-4 col-image col-collection">
-			<img src="assets/images/lempicka.jpg" class="img-collection" alt="painting by Tamara de Lempicka"></div>
-			<div class="col-sm-12 col-md-6 col-lg-8 col-red col-collection align-middle">
-				<p class="text-grid"> The biggest area of the museum is dedicated to paintings. <br>
-                Here you can find amazing
-					works of art by Tamara de Lempicka, Frida Kahlo, Georgia o´Keefe and many other artists.</p>
-			</div>
-		</div>
+        <div class="row row-collection no-gutters">
+          <div class="col-sm-12 col-md-6 col-lg-8 col-yellow col-collection d-flex">
+            <p class="text-grid justify-content-center align-items-center">
+              The XX century shows a increasing number of female artists that
+              radically transform the art industry and bring innovations.
+            </p>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 col-image col-collection">
+            <img
+              src="assets/images/georgia.jpg"
+              class="img-collection"
+              alt="painting by Georgia o´Keefe"
+            />
+          </div>
+        </div>
 
-    <div class="row row-collection no-gutters">
-    <div class="col-sm-12 col-md-6 col-lg-8 col-yellow col-collection">
-    <p class="text-grid">The XX century shows a increasing number of female artists that radically transform the art industry and bring innovations.</p>
-    </div>
-    <div class="col-sm-12 col-md-6 col-lg-4 col-image col-collection">
-    <img src="assets/images/georgia.jpg" class="img-collection" alt="painting by Georgia o´Keefe"></div>
-    </div>
+        <div class="row row-collection no-gutters">
+          <div class="col-sm-12 col-md-6 col-lg-4 col-image col-collection">
+            <img
+              src="assets/images/coco.jpg"
+              class="img-collection"
+              alt="picture of Coco Chanel"
+            />
+          </div>
 
-    <div class="row row-collection no-gutters">
-    <div class="col-sm-12 col-md-6 col-lg-4 col-image col-collection">
-    <img src="assets/images/coco.jpg" class="img-collection" alt="picture of Coco Chanel"></div>
-    <div class="col-sm-12 col-md-6 col-lg-8 col-blue col-collection">
-    <p class="text-grid">Not only visual art, but also fashion. Female stylists such as Coco Chanel showed the world that women can be great entrepreneurs as well.</p>
-    </div>
-    </div>
+          <div class="col-sm-12 col-md-6 col-lg-8 col-blue col-collection d-flex">
+            <p class="text-grid justify-content-center align-items-center">
+              Not only visual art, but also fashion. Female stylists such as
+              Coco Chanel showed the world that women can be great entrepreneurs
+              as well.
+            </p>
+          </div>
+        </div>
 
-    <div class="row row-collection no-gutters">
-    <div class="col-sm-12 col-md-6 col-lg-8 col-red col-collection">
-    <p class="text-grid">The photographic area tells the history of female art in modern times. You will find Marina Abramovic and many others.</p>
-    </div>
-    <div class="col-sm-12 col-md-6 col-lg-4 col-image col-collection">
-    <img src="assets/images/marina.jpg" class="img-collection" alt="performance by Marina Abramovic"></div>
-    </div>
+        <div class="row row-collection no-gutters">
+          <div class="col-sm-12 col-md-6 col-lg-8 col-red col-collection d-flex">
+            <p class="text-grid justify-content-center align-items-center">
+              The photographic area tells the history of female art in modern
+              times. You will find Marina Abramovic and many others.
+            </p>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 col-image col-collection">
+            <img
+              src="assets/images/marina.jpg"
+              class="img-collection"
+              alt="performance by Marina Abramovic"
+            />
+          </div>
+        </div>
 
-    <div class="row row-collection no-gutters">
-    <div class="col-sm-12 col-md-6 col-lg-4 col-image col-collection">
-    <img src="assets/images/gentileschi.jpg" class="img-collection" alt="painting by Artemisia Gentileschi"></div>
-    <div class="col-sm-12 col-md-6 col-lg-8 col-yellow col-collection">
-    <p class="text-grid">Female art is not only a prerogative of modern times. We have great artists also from other centuries, such as Artemisia Gentileschi.</p>
-    </div>
-    </div>
+        <div class="row row-collection no-gutters">
+          <div class="col-sm-12 col-md-6 col-lg-4 col-image col-collection">
+            <img
+              src="assets/images/gentileschi.jpg"
+              class="img-collection"
+              alt="painting by Artemisia Gentileschi"
+            />
+          </div>
 
-    <div class="row row-collection no-gutters">
-    <div class="col-sm-12 col-md-6 col-lg-8 col-blue col-collection">
-    <p class="text-grid">Don't miss the chance to visit the greatest collection of women in art in the world.</p>
-    </div>
-    <div class="col-sm-12 col-md-6 col-lg-4 col-image col-collection">
-    <img src="assets/images/kahlo.jpg" class="img-collection" alt="painting by Frida Kahlo"></div>
-    </div>
+          <div class="col-sm-12 col-md-6 col-lg-8 col-yellow col-collection d-flex">
+            <p class="text-grid justify-content-center align-items-center">
+              Female art is not only a prerogative of modern times. We have
+              great artists also from other centuries, such as Artemisia
+              Gentileschi.
+            </p>
+          </div>
+        </div>
 
-    <section>
-    <h2 class="h2-title">Upcoming exhibitions</h2>
-	<div class="row">
-		<div class="col-12 col-md-6 col-lg-4">
-			<div class="card card-size">
-                <figure>
-				<img src="assets/images/yayoi.jpg" class="card-img-top card-cover" alt="Yayoi Kusama">
-				<figcaption>
-					<small>Fotocredits: Courtesy Ota Fine Arts, © YAYOI KUSAMA</small>
-				</figcaption></figure>
-				<div class="card-body">
-					<h5 class="card-title uppercase">Yayoi Kusama</h5>
-					<p class="card-text">27 September 2020 - 23 December 2020</p>
-					<a href="contact.html" class="btn btn-red uppercase">Book your ticket</a>
-				</div>
-			</div>
-		</div>
-		<div class="col-12 col-md-6 col-lg-4">
-			<div class="card card-size">
-            <figure>
-				<img src="assets/images/vivienne.jpg" class="card-img-top card-cover" alt="Vivienne Westwood">
-				<figcaption><small>
-	Derek Hudson/Getty Images</small></figcaption></figure>
-				<div class="card-body">
-					<h5 class="card-title uppercase">Vivienne Westwood</h5>
-					<p class="card-text">02 November 2020 - 02 February 2021.</p>
-					<a href="contact.html" class="btn btn-red uppercase">Book your ticket</a>
-				</div>
-			</div>
-		</div>
-		<div class="col-12 d-sm-block d-md-none d-lg-block col-lg-4">
-			<div class="card card-size">
-            <figure>
-				<img src="assets/images/janis.jpg" class="card-img-top card-cover" alt="Janis Joplin">
-				<figcaption><small>
-	©Barry Feinstein Photography Inc. 2019. All rights reserved</small></figcaption></figure>
-				<div class="card-body">
-					<h5 class="card-title uppercase">Janis Joplin</h5>
-					<p class="card-text">05 January 2021 - 15 April 2021</p>
-					<a href="contact.html" class="btn btn-red uppercase">Book your ticket</a>
-				</div>
-			</div>
-		</div>
-	</div>
-    </section>
+        <div class="row row-collection no-gutters">
+          <div class="col-sm-12 col-md-6 col-lg-8 col-blue col-collection d-flex">
+            <p class="text-grid justify-content-center align-items-center">
+              Don't miss the chance to visit the greatest collection in the
+              world about women in art.
+            </p>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 col-image col-collection">
+            <img
+              src="assets/images/kahlo.jpg"
+              class="img-collection"
+              alt="painting by Frida Kahlo"
+            />
+          </div>
+        </div>
+      </section>
 
+      <section>
+        <h2 class="h2-title">Upcoming exhibitions</h2>
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card card-size">
+              <figure>
+                <img
+                  src="assets/images/yayoi.jpg"
+                  class="card-img-top card-cover"
+                  alt="Yayoi Kusama"
+                />
+                <figcaption>
+                  <small
+                    >Fotocredits: Courtesy Ota Fine Arts, © YAYOI KUSAMA</small
+                  >
+                </figcaption>
+              </figure>
+              <div class="card-body">
+                <h5 class="card-title uppercase">Yayoi Kusama</h5>
+                <p class="card-text">27 September 2020 - 23 December 2020</p>
+                <a href="contact.html" class="btn btn-red uppercase"
+                  >Book your ticket</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card card-size">
+              <figure>
+                <img
+                  src="assets/images/vivienne.jpg"
+                  class="card-img-top card-cover"
+                  alt="Vivienne Westwood"
+                />
+                <figcaption>
+                  <small> Derek Hudson/Getty Images</small>
+                </figcaption>
+              </figure>
+              <div class="card-body">
+                <h5 class="card-title uppercase">Vivienne Westwood</h5>
+                <p class="card-text">02 November 2020 - 02 February 2021.</p>
+                <a href="contact.html" class="btn btn-red uppercase"
+                  >Book your ticket</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-12 d-sm-block d-md-none d-lg-block col-lg-4">
+            <div class="card card-size">
+              <figure>
+                <img
+                  src="assets/images/janis.jpg"
+                  class="card-img-top card-cover"
+                  alt="Janis Joplin"
+                />
+                <figcaption>
+                  <small>
+                    ©Barry Feinstein Photography Inc. 2019. All rights
+                    reserved</small
+                  >
+                </figcaption>
+              </figure>
+              <div class="card-body">
+                <h5 class="card-title uppercase">Janis Joplin</h5>
+                <p class="card-text">05 January 2021 - 15 April 2021</p>
+                <a href="contact.html" class="btn btn-red uppercase"
+                  >Book your ticket</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
+    <footer class="bg-black">
+      <div class="text-center text-footer">
+        <h2 class="title-museum">
+          <span class="red">Women</span> <span class="yellow">In</span>
+          <span class="blue">Art</span> Museum
+        </h2>
+        <p class="text">
+          <a href="#" class="link-style bold"> Book now your visit!</a>
+        </p>
+        <div class="social">
+          <p class="social-text">Stay updated with all our news:</p>
+          <a
+            href="https://facebook.com"
+            class="fa fa-facebook icon"
+            target="_blank"
+          ></a>
+          <a
+            href="https://twitter.com"
+            class="fa fa-twitter icon"
+            target="_blank"
+          ></a>
+          <a
+            href="https://instagram.com"
+            class="fa fa-instagram icon"
+            target="_blank"
+          ></a>
+          <a
+            href="https://youtube.com"
+            class="fa fa-youtube icon"
+            target="_blank"
+          ></a>
+        </div>
+        <small>&copy;KatiaDB 2020</small>
+      </div>
+    </footer>
 
-
-		<footer class="bg-black">
-        <div class="text-center text-footer">
-			<h2 class="title-museum"><span class="red">Women</span> <span class="yellow">In</span> <span class="blue">Art</span> Museum</h2>
-			<p class="text"><a href="#" class="link-style bold"> Book now your visit!</a></p>
-            <div class="social">
-            <p class="social-text">Stay updated with all our news:</p>
-            <a href="https://facebook.com" class="fa fa-facebook icon" target="_blank"></a>
-            <a href="https://twitter.com" class="fa fa-twitter icon" target="_blank"></a>
-            <a href="https://instagram.com" class="fa fa-instagram icon" target="_blank"></a>
-            <a href="https://youtube.com" class="fa fa-youtube icon" target="_blank"></a>
-            </div>
-			<small>&copy;KatiaDB 2020</small>
-            </div>
-		</footer>
-
-
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

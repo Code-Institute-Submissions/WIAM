@@ -1,74 +1,74 @@
-@import url('https://fonts.googleapis.com/css2?family=Jim+Nightshade&family=Lato:wght@100;300;400;700;900&family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Jim+Nightshade&family=Lato:wght@100;300;400;700;900&family=Montserrat:wght@100;200;300;400;500;600;700&display=swap");
 
 /*---------------------------------------------------Colors*/
-.bg-black{
-    background-color: #000000;
+.bg-black {
+  background-color: #000000;
 }
 
-.bg-dark-custom{
-    background-color: #000000;
+.bg-dark-custom {
+  background-color: #000000;
 }
 
 .red {
-    color: #ff8080;
+  color: #ff8080;
 }
 
 .yellow {
-    color: #ffff66;
+  color: #ffff66;
 }
 
 .blue {
-    color: #80ccff;
+  color: #80ccff;
 }
 
 small {
-    color: #b1afaf;
+  color: #b1afaf;
 }
 
-.description{
-    background-color: #fafafa;
-    color: #000000;
+.description {
+  background-color: #fafafa;
+  color: #000000;
 }
 
-.description-red{
-    border: 5px solid rgba(255,255,102,1);
+.description-red {
+  border: 5px solid rgba(255, 255, 102, 1);
 }
 
-hr{
-    color: #b1afaf;
+hr {
+  color: #b1afaf;
 }
 
-.btn-red{
-    background-color: #ff8080;
-    color: #fafafa;
-    border: 1px solid #000000;
+.btn-red {
+  background-color: #ff8080;
+  color: #fafafa;
+  border: 1px solid #000000;
 }
 
-.btn-red:hover{
-    color: #fafafa;
+.btn-red:hover {
+  color: #fafafa;
 }
 
 small {
-    color: #b1afaf;
+  color: #b1afaf;
 }
 
 .col-red {
-    background-color: #ff8080;
-    color: #000000;
+  background-color: #ff8080;
+  color: #000000;
 }
 
 .col-yellow {
-    background-color: #ffff66;
-    color: #000000;
+  background-color: #ffff66;
+  color: #000000;
 }
 
 .col-blue {
-    background-color: #80ccff;
-    color: #000000;
+  background-color: #80ccff;
+  color: #000000;
 }
 
 /*---------------------------------------------------Typography*/
-.title-museum{
+.title-museum {
   font-family: "Lato", sans-serif;
   font-weight: 300;
   color: #fafafa;
@@ -76,7 +76,7 @@ small {
   text-transform: uppercase;
   font-size: 30px;
 }
-.title-museum-small{
+.title-museum-small {
   font-family: "Lato", sans-serif;
   font-weight: 700;
   color: #fafafa;
@@ -85,7 +85,7 @@ small {
   font-size: 30px;
 }
 
-.title-museum-body{
+.title-museum-body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   color: #fafafa;
@@ -94,25 +94,25 @@ small {
   font-size: 30px;
 }
 
-nav div::first-letter{
-    font-weight: 700;
-    font-size: 150%;
+nav div::first-letter {
+  font-weight: 700;
+  font-size: 150%;
 }
 
-.word-title::first-letter{
-    font-weight: 700;
-    font-size: 150%;
+.word-title::first-letter {
+  font-weight: 700;
+  font-size: 150%;
 }
 
-.word-title{
-    display: inline-block;
+.word-title {
+  display: inline-block;
 }
 
-nav div{
-    display: inline-block;
+nav div {
+  display: inline-block;
 }
 
-.text{
+.text {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: #fafafa;
@@ -122,15 +122,15 @@ nav div{
 }
 
 .text-grid {
-font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  color: #fafafa;
+  color: #b1afaf;
   letter-spacing: 4px;
   font-size: 20px;
   margin: auto 15px;
 }
 
-.social-text{
+.social-text {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: #fafafa;
@@ -139,7 +139,18 @@ font-family: "Montserrat", sans-serif;
   font-size: 12px;
 }
 
-.h2-title{
+.h2-title {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  color: #fafafa;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  font-size: 30px;
+  padding: 30px 0px;
+  text-align: center;
+}
+
+.h3-title {
   font-family: "Lato", sans-serif;
   font-weight: 700;
   color: #fafafa;
@@ -150,23 +161,11 @@ font-family: "Montserrat", sans-serif;
   text-align: center;
 }
 
-
-.h3-title{
-  font-family: "Lato", sans-serif;
-  font-weight: 700;
-  color: #fafafa;
-  letter-spacing: 4px;
-  text-transform: uppercase;
-  font-size: 20px;
-  padding: 30px 0px;
+.text-description {
+  font-size: 16px;
+  font-weight: 200;
+  padding-top: 30px;
   text-align: center;
-}
-
-.text-description{
-    font-size: 16px;
-    font-weight: 200;
-    padding-top: 30px;
-    text-align: center;
 }
 
 .link-style {
@@ -182,38 +181,36 @@ h5 {
   font-weight: 700;
 }
 
-.uppercase{
-    text-transform: uppercase;
+.uppercase {
+  text-transform: uppercase;
 }
 
 .bold {
-    font-weight: 700;
+  font-weight: 700;
 }
 
-.btn-red{
-    font-family: "Lato", sans-serif;
+.btn-red {
+  font-family: "Lato", sans-serif;
 }
 
 /*---------------------------------------------------Body*/
 
 body {
-height: 100%;
-min-height: 100%;
-
+  height: 100%;
+  min-height: 100%;
 }
-
 
 /*---------------------------------------------------Header*/
 header {
-   margin: 0;
-   padding: 0;
-   height: 12vh;
+  margin: 0;
+  padding: 0;
+  height: 12vh;
 }
 
 .title-museum,
 .title-museum-small {
-    display: inline;
-    padding-left: 20px;
+  display: inline;
+  padding-left: 20px;
 }
 
 /* h1 {
@@ -222,80 +219,77 @@ header {
     line-height: 2;
  } */
 
-.light{
-    font-weight: 300;
-    font-size: 50%;
+.light {
+  font-weight: 300;
+  font-size: 50%;
 }
 
 ul li {
-    display: inline;
-    margin: 25px 0px 0px 20px;
-    line-height: 2;
+  display: inline;
+  margin: 25px 0px 0px 20px;
+  line-height: 2;
 }
 
 .link-style:hover {
-    font-size: 700;
+  font-size: 700;
 }
 
 /*---------------------------------------------------Hero*/
 
 main {
-    margin-top: 15vh;
+  margin-top: 15vh;
 }
 
 /*---------------------------------------------------Hero*/
 
 main.container-fluid {
-    margin: 0 0 0 0;
-    padding-top: 12vh;
-    max-width: 100%;
-    
-    
+  margin: 0 0 0 0;
+  padding-top: 12vh;
+  max-width: 100%;
 }
 
 .hero-image-style {
-    object-fit: cover;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    max-height: 650px;
-    position: relative;
+  object-fit: cover;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  max-height: 650px;
+  position: relative;
 }
 
 figcaption {
-    text-align: right;
+  text-align: right;
 }
-
 
 /*---------------------------------------------------Blockquote*/
 
-.blockquote-style{
-    background-color: #ff8080;
-    border-radius: 10px;
-    display: center;
-    padding: 10px;
-    margin: 50px auto;
-    text-align: center;
-    width: 60%;
+.blockquote-style {
+  background-color: #ff8080;
+  border-radius: 10px;
+  display: center;
+  padding: 10px;
+  margin: 50px auto;
+  text-align: center;
+  width: 60%;
 }
 
 .blockquote-text {
-   color: #fafafa;
-   font-family: "Montserrat", sans-serif;
-   letter-spacing: 4px;
-   line-height: 2;
-   font-size: 20px;
+  color: #fafafa;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 4px;
+  line-height: 2;
+  font-size: 20px;
 }
 
 .signature {
-    font-family: "Jim Nightshade", cursive;
-    font-size: 18px;
-    text-align: right;
+  font-family: "Jim Nightshade", cursive;
+  font-size: 18px;
+  text-align: right;
 }
 
-hr{
-    border-top: 1px solid #b1afaf;
-    border-bottom: 1px solid #b1afaf;
+hr {
+  border-top: 1px solid #b1afaf;
+  border-bottom: 1px solid #b1afaf;
 }
 
 /*---------------------------------------------------Themes
@@ -327,36 +321,35 @@ hr{
 } */
 
 /*---------------------------------------------------Upcoming Exhibitions*/
-.upcoming{
-    margin: 50px 0;
+.upcoming {
+  margin: 50px 0;
 }
 .card-cover {
-    object-fit: cover;
-    width: 100%;
-    height: 368px;
+  object-fit: cover;
+  width: 100%;
+  height: 368px;
 }
 /*---------------------------------------------------Collection*/
 
 .col-collection {
-   height: 400px;
+  height: 400px;
 }
 
 .img-collection {
-    height: 400px;
-    width: 100%;
-    object-fit: cover;
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
 }
 
 /*---------------------------------------------------Footer*/
 
 footer {
-    position: relative;
-    padding-top: 30px;
+  position: relative;
+  padding-top: 30px;
 }
 
 .icon {
-    font-size: 20px;
-    color: #b1afaf;
-    padding: 10px 30px;
+  font-size: 20px;
+  color: #b1afaf;
+  padding: 10px 30px;
 }
-
