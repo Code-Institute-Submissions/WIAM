@@ -66,6 +66,13 @@ small {
   background-color: #80ccff;
   color: #000000;
 }
+.text-grid{
+ color: #fafafa;
+ } 
+ 
+.text-grid-gray {
+    color: #7e7d7d;
+}
 
 /*---------------------------------------------------Typography*/
 .title-museum {
@@ -124,7 +131,6 @@ nav div {
 .text-grid {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  color: #b1afaf;
   letter-spacing: 4px;
   font-size: 20px;
   margin: auto 15px;
