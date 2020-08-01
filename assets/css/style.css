@@ -168,6 +168,7 @@ nav div {
 }
 
 .text-description {
+   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: 200;
   padding-top: 30px;
@@ -199,8 +200,27 @@ h5 {
   font-family: "Lato", sans-serif;
 }
 
-/*---------------------------------------------------Body*/
+form {
+   font-family: "Montserrat", sans-serif;
+   color: #fafafa;
+  font-size: 16px;
+  font-weight: 200;
+  padding-top: 30px;
+}
 
+.legend-text {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: #fafafa;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-size: 25px;
+  padding: 30px 0px;
+  text-align: center;
+}
+
+/*---------------------------------------------------Body*/
+html,
 body {
   height: 100%;
   min-height: 100%;
@@ -358,9 +378,12 @@ hr {
     display: block;
 }
 
-/*---------------------------------------------------Museum*/
+/*---------------------------------------------------Form*/
 
-
+.form-style{
+  width: 60vw;
+  margin: 0 auto;
+}
 /*---------------------------------------------------Footer*/
 
 footer {
