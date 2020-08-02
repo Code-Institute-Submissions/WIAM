@@ -391,7 +391,7 @@ hr {
 
 .form-group-style {
 margin: 0px auto;
-max-width: 60%;
+max-width: 80%;
 }
 
 legend.red{
@@ -409,6 +409,7 @@ legend.blue{
 form{
     margin-bottom: 50px;
 }
+
 /*---------------------------------------------------Footer*/
 
 footer {
@@ -423,3 +424,10 @@ footer {
 }
 
 /*---------------------------------------------------Media Queries*/
+
+@media(min-width: 768px){
+.form-group-style {
+margin: 0px auto;
+max-width: 60%;
+}
+}
