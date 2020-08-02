@@ -70,7 +70,7 @@
       <h2 class="h2-title">
         Contact <span class="d-none d-lg-block"> us and book now</span>
       </h2>
-      <h5 class="h5-title text-center">
+      <h5 class="h5-title text-center h5-contact">
         If you want to book your tickets or if you simply want to ask/tell us
         something, just fill the form
       </h5>
@@ -88,85 +88,78 @@
       </div>
       <div class="container">
         <form class="form-group-style">
-          
-            <fieldset>
-              <legend class="legend-text red">My personal data:</legend>
-              <label for="fname">First Name</label>
-              <input
-                type="text"
-                id="fname"
-                name="fname"
-                class="form-control"
-                required
-              /><br />
-              <label for="lname">Last Name</label>
-              <input
-                type="text"
-                id="lname"
-                name="lname"
-                class="form-control"
-                required
-              /><br />
-              <label for="email">E-mail</label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                class="form-control"
-                required
-              /><br />
-            </fieldset>
-            <br />
-            <fieldset>
-              <legend class="legend-text yellow">Booking:</legend>
-              <label for="quantity">How many tickets do I need?</label>
-              <input
-                type="number"
-                id="quantity"
-                name="quantity"
-                min="1"
-                max="20"
-                placeholder="1"
-              />
+          <fieldset>
+            <legend class="legend-text red">My personal data:</legend>
+            <label for="fname">First Name</label>
+            <input
+              type="text"
+              id="fname"
+              name="fname"
+              class="form-control"
+              required
+            /><br />
+            <label for="lname">Last Name</label>
+            <input
+              type="text"
+              id="lname"
+              name="lname"
+              class="form-control"
+              required
+            /><br />
+            <label for="email">E-mail</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              class="form-control"
+              required
+            /><br />
+          </fieldset>
+          <br />
+          <fieldset>
+            <legend class="legend-text yellow">Booking:</legend>
+            <label for="quantity">How many tickets do I need?</label>
+            <input
+              type="number"
+              id="quantity"
+              name="quantity"
+              min="1"
+              max="20"
+              placeholder="1"
+            />
 
-              <input
-                list="exhibitions"
-                name="exhibition"
-                placeholder="Choose your exhibition"
-                class="form-control"
-              />
-              <datalist id="exhibitions">
-                <option value="Permanent Collection"> </option>
-                <option value="Yayoi Kusama"> </option>
-                <option value="Vivienne Westwood"> </option>
-                <option value="Janis Joplin"> </option>
-              </datalist>
-            </fieldset>
-            <br />
-            <fieldset>
-              <legend class="legend-text blue">I have something to ask:</legend>
-              <label for="message">Tell us!</label>
-              <textarea
-                id="message"
-                name="message"
-                rows="5"
-                class="form-control"
+            <input
+              list="exhibitions"
+              name="exhibition"
+              placeholder="Choose your exhibition"
+              class="form-control"
+            />
+            <datalist id="exhibitions">
+              <option value="Permanent Collection"> </option>
+              <option value="Yayoi Kusama"> </option>
+              <option value="Vivienne Westwood"> </option>
+              <option value="Janis Joplin"> </option>
+            </datalist>
+          </fieldset>
+          <br />
+          <fieldset>
+            <legend class="legend-text blue">I have something to ask:</legend>
+            <label for="message">Tell us!</label>
+            <textarea id="message" name="message" rows="5" class="form-control">
+            </textarea>
+          </fieldset>
+          <br />
+          <div class="form-row text-center">
+            <div class="col">
+              <button
+                type="button"
+                onclick="alert('Thank you! Our amazing customer service will contact you soon')"
+                class="btn btn-danger"
               >
-              </textarea>
-            </fieldset>
-            <br />
-            <div class="form-row text-center">
-              <div class="col">
-                <button
-                  type="button"
-                  onclick="alert('Thank you! Our amazing customer service will contact you soon')"
-                  class="btn btn-danger"
-                >
-                  Send request
-                </button>
-              </div>
+                Send request
+              </button>
             </div>
-          
+          </div>
         </form>
       </div>
     </main>
