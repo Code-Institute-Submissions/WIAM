@@ -67,6 +67,13 @@
     </header>
 
     <main class="container-fluid">
+      <h2 class="h2-title">
+        Contact <span class="d-none d-lg-block"> us and book now</span>
+      </h2>
+      <h5 class="h5-title text-center">
+        If you want to book your tickets or if you simply want to ask/tell us
+        something, just fill the form
+      </h5>
       <div class="hero-image">
         <figure>
           <img
@@ -78,39 +85,40 @@
             <small>©Roger Davies-Atelier</small>
           </figcaption>
         </figure>
-
+      </div>
+      <div class="container">
         <form>
-          <div class="form-group">
+          <div class="form-group-style">
             <fieldset>
-              <legend class="legend-text">My personal data:</legend>
+              <legend class="legend-text red">My personal data:</legend>
               <label for="fname">First Name</label>
-              <input type="text" id="fname" name="fname" required /><br />
+              <input
+                type="text"
+                id="fname"
+                name="fname"
+                class="form-control"
+                required
+              /><br />
               <label for="lname">Last Name</label>
-              <input type="text" id="lname" name="lname" required /><br />
+              <input
+                type="text"
+                id="lname"
+                name="lname"
+                class="form-control"
+                required
+              /><br />
               <label for="email">E-mail</label>
-              <input type="email" id="email" name="email" required /><br />
+              <input
+                type="email"
+                id="email"
+                name="email"
+                class="form-control"
+                required
+              /><br />
             </fieldset>
-            <hr />
+            <br />
             <fieldset>
-              <legend class="legend-text">Booking:</legend>
-              <input
-                type="radio"
-                id="yes-booking"
-                name="booking"
-                value="yes-booking"
-              />
-              <label for="yes-booking">I want to book my tickets now</label
-              ><br />
-              <input
-                type="radio"
-                id="no-booking"
-                name="booking"
-                value="no-booking"
-              />
-              <label for="no-booking"
-                >Just asking questions today... I will skip this area</label
-              ><br />
-
+              <legend class="legend-text yellow">Booking:</legend>
               <label for="quantity">How many tickets do I need?</label>
               <input
                 type="number"
@@ -125,6 +133,7 @@
                 list="exhibitions"
                 name="exhibition"
                 placeholder="Choose your exhibition"
+                class="form-control"
               />
               <datalist id="exhibitions">
                 <option value="Permanent Collection"> </option>
@@ -133,20 +142,30 @@
                 <option value="Janis Joplin"> </option>
               </datalist>
             </fieldset>
-            <hr>
+            <br />
             <fieldset>
-              <legend class="legend-text">I have something to ask:</legend>
+              <legend class="legend-text blue">I have something to ask:</legend>
               <label for="message">Tell us!</label>
-              <textarea id="message" name="message" rows="10" cols="50">
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                class="form-control"
+              >
               </textarea>
             </fieldset>
-
-            <button
-              type="button"
-              onclick="alert('Thank you! Our amazing customer service will contact you soon')"
-            >
-              Send request
-            </button>
+            <br />
+            <div class="form-row text-center">
+              <div class="col">
+                <button
+                  type="button"
+                  onclick="alert('Thank you! Our amazing customer service will contact you soon')"
+                  class="btn btn-danger"
+                >
+                  Send request
+                </button>
+              </div>
+            </div>
           </div>
         </form>
       </div>
