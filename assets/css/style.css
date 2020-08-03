@@ -76,6 +76,10 @@ legend.blue {
   color: #80ccff;
 }
 
+table {
+    color:#7e7d7d;
+}
+
 /*---------------------------------------------------Typography*/
 .title-museum {
   font-family: "Lato", sans-serif;
