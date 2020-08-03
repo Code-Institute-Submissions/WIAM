@@ -38,16 +38,6 @@ hr {
   color: #b1afaf;
 }
 
-.btn-red {
-  background-color: #ff8080;
-  color: #fafafa;
-  border: 1px solid #000000;
-}
-
-.btn-red:hover {
-  color: #fafafa;
-}
-
 small {
   color: #b1afaf;
 }
