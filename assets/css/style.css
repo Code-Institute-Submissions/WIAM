@@ -402,6 +402,32 @@ footer {
   padding: 10px 30px;
 }
 
+.book-icon{
+  font-size: 20px;
+  color: #fafafa;
+  padding: 0 10px;
+}
+
+.book-icon:hover,
+.book-icon:active{
+    text-decoration: none;
+    color: #b1afaf;
+}
+
+.link-style:hover,
+.link-style:active{
+    color: #b1afaf;
+    text-decoration: none;
+}
+
+.icon:hover,
+.icon:active{
+    text-decoration: none;
+    color: #fafafa;
+}
+
+
+
 /*---------------------------------------------------Media Queries*/
 
 @media (min-width: 768px) {
