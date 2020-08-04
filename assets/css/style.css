@@ -247,6 +247,20 @@ header {
   height: 12vh;
 }
 
+.link-index{
+    display: block;
+}
+
+.link-index:hover,
+.link-index:active{
+    text-decoration: none;
+    color: #fafafa;
+}
+
+.link-index:visited{
+    color: #fafafa;
+}
+
 .title-museum,
 .title-museum-small {
   display: inline;
