@@ -129,7 +129,7 @@ The website has been deployed following these steps:
 * The page will re-load automatically;
 * Scroll down again to the same section "GitHub Pages";
 * Now you will find a link that says "Your site is published at ..."
-Deployment done!
+
 
 ### Fork the code 
 
@@ -141,7 +141,7 @@ If you need to work on this code on your own, follow these steps:
 
 ### Local Clone
 
-To make a local clone of the site, just follow those steps after forking the code:
+To make a local clone of the site, just follow these steps after forking the code:
 
 * Log in to your GitHub;
 * Under your repository section, select the repo that you need;
@@ -149,7 +149,8 @@ To make a local clone of the site, just follow those steps after forking the cod
 * On the dropdown selection, you will find a link to clone the code with HHTPS;
 * Now open Git bash;
 * Open the directory where you want to work on the cloned code;
-* Type git clone followed by the link you have previously copied.
+* Type `git clone` followed by the link you have previously copied.
+
 Done!
 
 ---
