@@ -369,6 +369,22 @@ hr {
 .text-grid {
   display: block;
 }
+/*---------------------------------------------------Museum*/
+.br-menu{
+    line-height: 30px;
+}
+
+.menu{
+    text-decoration: none;
+    color: #fafafa;
+}
+
+.menu:hover,
+.menu:active{
+    text-decoration: none;
+    font-weight: 700;
+    color: #fafafa;
+}
 
 /*---------------------------------------------------Contact Form*/
 
