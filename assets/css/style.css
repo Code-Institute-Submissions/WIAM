@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Jim+Nightshade&family=Lato:wght@100;300;400;700;900&family=Montserrat:wght@100;200;300;400;500;600;700&display=swap");
 
+* {
+    font-size: 10px;
+}
+
 /*---------------------------------------------------Colors*/
 .bg-black {
   background-color: #000000;
@@ -85,26 +89,26 @@ table {
   font-family: "Lato", sans-serif;
   font-weight: 300;
   color: #fafafa;
-  letter-spacing: 4px;
+  letter-spacing: .4rem;
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: 3rem;
 }
 .title-museum-small {
   font-family: "Lato", sans-serif;
   font-weight: 700;
   color: #fafafa;
-  letter-spacing: 4px;
+  letter-spacing: .4rem;
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: 3rem;
 }
 
 .title-museum-body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   color: #fafafa;
-  letter-spacing: 4px;
+  letter-spacing: .4rem;
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: 3rem;
 }
 
 nav div::first-letter {
@@ -129,36 +133,36 @@ nav div {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: #fafafa;
-  letter-spacing: 4px;
+  letter-spacing: .4rem;
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 2rem;
 }
 
 .text-grid {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  letter-spacing: 4px;
-  font-size: 20px;
-  margin: auto 15px;
+  letter-spacing: .4rem;
+  font-size: 2rem;
+  margin: auto 1.5rem;
 }
 
 .social-text {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: #fafafa;
-  letter-spacing: 2px;
+  letter-spacing: .2rem;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 1.2rem;
 }
 
 .h2-title {
   font-family: "Lato", sans-serif;
   font-weight: 700;
   color: #fafafa;
-  letter-spacing: 8px;
+  letter-spacing: .8rem;
   text-transform: uppercase;
-  font-size: 40px;
-  padding: 30px 0px;
+  font-size: 4rem;
+  padding: 3rem 0;
   text-align: center;
 }
 
@@ -166,18 +170,18 @@ nav div {
   font-family: "Lato", sans-serif;
   font-weight: 700;
   color: #fafafa;
-  letter-spacing: 4px;
+  letter-spacing: .4rem;
   text-transform: uppercase;
-  font-size: 25px;
-  padding: 30px 0px;
+  font-size: 2.5rem;
+  padding: 3rem 0;
   text-align: center;
 }
 
 .text-description {
   font-family: "Montserrat", sans-serif;
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 200;
-  padding-top: 30px;
+  padding-top: 3rem;
   text-align: center;
 }
 
@@ -216,19 +220,19 @@ h5 {
 form {
   font-family: "Montserrat", sans-serif;
   color: #fafafa;
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 200;
-  padding-top: 30px;
+  padding-top: 3rem;
 }
 
 .legend-text {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   color: #fafafa;
-  letter-spacing: 4px;
+  letter-spacing: .4rem;
   text-transform: uppercase;
-  font-size: 18px;
-  padding: 30px 0px;
+  font-size: 1.8rem;
+  padding: 3rem 0;
   text-align: center;
 }
 
@@ -244,7 +248,7 @@ body {
 header {
   margin: 0;
   padding: 0;
-  height: 12vh;
+  height: 10vh;
 }
 
 .link-index{
@@ -264,18 +268,35 @@ header {
 .title-museum,
 .title-museum-small {
   display: inline;
-  padding-left: 20px;
+  padding-left: 2rem;
 }
+
+.link-index span.red,
+.link-index span.yellow,
+.link-index span.blue {
+    font-size: 2rem;
+}
+
+.link-index div.red,
+.link-index div.yellow,
+.link-index div.blue {
+    font-size: 3rem;
+}
+
 
 .light {
   font-weight: 300;
-  font-size: 50%;
+  font-size: 2rem;
 }
 
 ul li {
   display: inline;
-  margin: 25px 0px 0px 20px;
+  margin: 2.5rem 0 0 2rem;
   line-height: 2;
+}
+
+.link-style.nav-link {
+  font-size: 1.8rem;
 }
 
 .link-style:hover {
@@ -302,7 +323,7 @@ main.container-fluid {
   width: 100%;
   margin: 0;
   padding: 0;
-  max-height: 650px;
+  max-height: 65rem;
   position: relative;
 }
 
@@ -314,9 +335,9 @@ figcaption {
 
 .blockquote-style {
   background-color: #ff8080;
-  border-radius: 10px;
-  padding: 10px;
-  margin: 50px auto;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 5rem auto;
   text-align: center;
   width: 60%;
 }
@@ -324,14 +345,14 @@ figcaption {
 .blockquote-text {
   color: #fafafa;
   font-family: "Montserrat", sans-serif;
-  letter-spacing: 4px;
+  letter-spacing: .4rem;
   line-height: 2;
-  font-size: 20px;
+  font-size: 2rem;
 }
 
 .signature {
   font-family: "Jim Nightshade", cursive;
-  font-size: 18px;
+  font-size: 1.8rem;
   text-align: right;
 }
 
@@ -340,19 +361,32 @@ hr {
   border-bottom: 1px solid #b1afaf;
 }
 
+/*---------------------------------------------------Index Body Text*/
+
+.title-museum-body div.word-title.red,
+.title-museum-body div.word-title.yellow,
+.title-museum-body div.word-title.blue {
+    font-size: 3rem;
+}
+
+.title-museum-body div.white{
+    font-size: 2rem;
+    font-weight: 300;
+}
+
 /*---------------------------------------------------Upcoming Exhibitions*/
 .upcoming {
-  margin: 50px 0;
+  margin: 5rem 0;
 }
 .card-cover {
   object-fit: cover;
   width: 100%;
-  height: 368px;
+  height: 36.8rem;
 }
 /*---------------------------------------------------Collection*/
 
 .col-collection {
-  height: 400px;
+  height: 40rem;
 }
 
 .img-collection {
@@ -362,7 +396,7 @@ hr {
 }
 
 .collection {
-  padding-bottom: 50px;
+  padding-bottom: 5rem;
   box-sizing: content-box;
 }
 
@@ -371,7 +405,7 @@ hr {
 }
 /*---------------------------------------------------Museum*/
 .br-menu{
-    line-height: 30px;
+    line-height: 3rem;
 }
 
 .menu{
@@ -389,39 +423,39 @@ hr {
 /*---------------------------------------------------Contact Form*/
 
 .form-group-style {
-  margin: 0px auto;
+  margin: 0 auto;
   max-width: 80%;
 }
 
 form {
-  margin-bottom: 50px;
+  margin-bottom: 5rem;
 }
 
 .h5-contact{
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
 }
 
 legend{
-    margin-top: 0px;
-    padding-top: 0px;
+    margin-top: 0;
+    padding-top: 0;
 }
 /*---------------------------------------------------Footer*/
 
 footer {
   position: relative;
-  padding-top: 30px;
+  padding-top: 3rem;
 }
 
 .icon {
-  font-size: 20px;
+  font-size: 2rem;
   color: #b1afaf;
-  padding: 10px 30px;
+  padding: 1rem 3rem;
 }
 
 .book-icon{
-  font-size: 20px;
+  font-size: 2rem;
   color: #fafafa;
-  padding: 0 10px;
+  padding: 0 1rem;
 }
 
 .book-icon:hover,
@@ -442,13 +476,21 @@ footer {
     color: #fafafa;
 }
 
+.title-museum span.red,
+.title-museum span.yellow,
+.title-museum span.blue {
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+
 
 
 /*---------------------------------------------------Media Queries*/
 
-@media (min-width: 768px) {
+@media (min-width: 76.8rem) {
   .form-group-style {
-    margin: 0px auto;
+    margin: 0 auto;
     max-width: 60%;
   }
 }
