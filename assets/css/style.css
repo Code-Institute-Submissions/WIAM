@@ -404,19 +404,58 @@ hr {
   display: block;
 }
 /*---------------------------------------------------Museum*/
-.br-menu{
-    line-height: 3rem;
+
+p.text-grid span.d-none.d-lg-block {
+  font-size: 2rem;
 }
+
+address,
+address span.bold{
+    font-size: 1.5rem;
+}
+
+p.text-grid strong {
+    font-size: 2rem;
+}
+
+time {
+    font-size: 1.2rem;
+}
+
+table {
+    padding-left: 10rem;
+}
+
+table th {
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: "Lato", sans-serif;
+    color: #7e7d7d;
+}
+
+table td {
+    font-size: 1.5rem;
+    color: #7e7d7d;
+    font-family: "Montserrat", sans-serif;
+}
+
+/*.br-menu{
+    line-height: 3rem;
+}*/
 
 .menu{
     text-decoration: none;
     color: #fafafa;
 }
 
-.menu:hover,
-.menu:active{
+a.menu span {
+    font-size: 2em;
+}
+
+a.menu span:hover,
+a.menu span:active{
     text-decoration: none;
-    font-weight: 700;
+    font-size: 2.5rem;
     color: #fafafa;
 }
 
