@@ -217,12 +217,18 @@ h5 {
   font-family: "Lato", sans-serif;
 }
 
-form {
+form label{
   font-family: "Montserrat", sans-serif;
   color: #fafafa;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   font-weight: 200;
   padding-top: 3rem;
+}
+
+form button {
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    font-size: 1.5rem;
 }
 
 .legend-text {
