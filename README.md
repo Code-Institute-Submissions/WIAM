@@ -124,7 +124,8 @@ JavaScript with jQuery only for the collapsible navbar.
 ---
 
 ## Testing
-I have tested with the W3C Markup Validator and W3C CSS Validator Services.
+I have tested with the W3C Markup Validator and W3C CSS Validator Services every time I finished a section, or if I added some changes. 
+This helped me to find immediately errors and fix them.
 
 
 I have tested the website on various screen sizes from mobile phones to large desktop.
@@ -133,7 +134,9 @@ Tested also on Google Chrome, Safari, Microsoft Edge, Firefox.
 I have used [AmIResponsive?](http://ami.responsivedesign.is/) for a quick preview on multiple devices.
 
 
-I have asked to relatives and friends to check the website on their own devices. Everyone had a good User Experience.
+I have asked to relatives and friends to check the website on their own device.
+Everyone had a good User Experience, but one thing that was missing in my project and the testing process pointed out, was that usually people expect the navbar brand to be a link that re-directs on the home page.
+I then added this feature.
 
 ---
 
@@ -195,8 +198,8 @@ The code for the Upcoming Exhibitions cards, and the collapsible navigation menu
 
 ### Code
 
-The collapsible navabr idea comes from the Whiskey Drop project done with the Code Institute, and also the hero image which has been used in the Love Running project.
-I thought these two elements were really nice and user friendly.
+The idea for the collapsible navabr comes from the Whiskey Drop project done with the Code Institute, and also the hero image which has been used in the Love Running project.
+I thought these two elements were really nice and user friendly. 
 
 
 The idea for the layout in the pages collection.html and museum.html comes from the MoMA website.
@@ -205,7 +208,7 @@ The idea for the layout in the pages collection.html and museum.html comes from 
 Bootstrap4 has been used to make the website responsive.
 
 
-I have then used [TheW3School](https://www.w3schools.com/) website and the book "Learning Web Design" by Jennifer Robbins whenever I had doubts with the proper semantics.
+I have then used [TheW3School](https://www.w3schools.com/) website and the book ["Learning Web Design"](https://www.amazon.com/Learning-Web-Design-Beginners-JavaScript-ebook/dp/B07DQ5RZJV) by Jennifer Robbins whenever I had doubts with the proper semantics.
 
 ### Media
 
