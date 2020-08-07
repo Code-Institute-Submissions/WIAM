@@ -88,7 +88,15 @@ I have chosen images with strong colours and representing strong personalities, 
 ### Wireframes
 
 I have started with using Balsamiq, but I realized that my ideas flow much better on paper.
-I sketched the pages both for mobile devices and desktop.
+I sketched the pages both for mobile devices and desktop by hand and only after I used Balsamiq to have nice pdfs to share.
+The layout on the Home Page goes also on Booking, with the only difference that instead of having text, in the Booking section there is a form.
+The Museum Page repeats the same layout in Collection, with of course different content.
+
+
+[Home Page](UDX/skeleton-plane/Home.pdf)
+
+
+[The Collection](UDX/skeleton-plane/Collection.pdf)
 
 ### Features
 Responsive on all device sizes.
