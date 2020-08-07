@@ -28,6 +28,12 @@ The museum wants to be inclusive as much as it can and make people feel comforta
 * As a Frequent User, I want to see if new exhibitions are planned.
 * As a Frequent User, I want to have a look at additional facilities I might find on the place, such as the weekly menu of the bistro.
 
+There are links throughout the websites that allow users to get in touch with the museum with just one click. 
+
+In the footer, but also in the Museum page, there are two icons with a direct link for a quick contact. 
+
+A phone icon that opens automatically a window for a phone call, and a mail icon with a mailto link.
+
 
 ### Design
 
