@@ -31,7 +31,10 @@ The museum wants to be inclusive as much as it can and make people feel comforta
 
 ### Design
 
-The layout will be simple and modern. Images will play a huge role, since one of the goals of the website is to be visually appealing to get users book a visit to the museum.
+The layout will be simple and modern. Images plays a huge role, since one of the goals of the website is to be visually appealing to get users book a visit to the museum.
+
+
+As I was working on the code, I suddenly realized that the layout I planned with my wireframe was not so appealing as I thought it would be. I changed it by removing a section and re-placing it with the Upcoming Exhibitions cards.
 
 #### Colour Scheme
 
@@ -94,12 +97,13 @@ JavaScript with jQuery only for the collapsible navbar.
 ### Frameworks, Libraries & Programs Used
 * Bootstrap 4.5.0.
 * Google Fonts
-* Font Awesome
-* jQuery - as part of Bootstrap to make the navbar collapsible on smaller devices.
+* Font Awesome 4.7.0.
+* jQuery - as part of Bootstrap to make the navbar collapsible on smaller devices
 * Git
 * GitHub
 * GitPod
 * Chrome DevTools
+* [Techsini](http://techsini.com/multi-mockup/index.php) mockup generator
 
 ---
 
@@ -109,6 +113,8 @@ I have tested with the W3C Markup Validator and W3C CSS Validator Services.
 
 I have tested the website on various screen sizes from mobile phones to large desktop.
 Tested also on Google Chrome, Safari, Microsoft Edge, Firefox.
+
+I have used [AmIResponsive?](http://ami.responsivedesign.is/) for a quick preview on multiple devices.
 
 
 I have asked to relatives and friends to check the website on their own devices. Everyone had a good User Experience.
@@ -168,6 +174,8 @@ The bistro menu pdf has been taken from the [Mandarin Bar & Bistro](https://www.
 The [Code Institute](https://github.com/Code-Institute-Solutions/SampleREADME) provided the structure for the README.md file.
 
 The UDX folder and files structure have been provided by my mentor [Spencer Barriball](https://github.com/5pence/monkees-project/tree/master/user-design-experience).
+
+The code for the Upcoming Exhibitions cards, and the collapsible navigation menu, have been taken from [Bootstrap](https://getbootstrap.com/).
 
 ### Code
 
