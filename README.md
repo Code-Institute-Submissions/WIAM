@@ -120,6 +120,7 @@ JavaScript with jQuery only for the collapsible navbar.
 * GitPod
 * Chrome DevTools
 * [Techsini](http://techsini.com/multi-mockup/index.php) mockup generator
+* [Autoprefixer CSS](https://autoprefixer.github.io/)
 
 ---
 
@@ -211,10 +212,13 @@ I thought these two elements were really nice and user friendly.
 The idea for the layout in the pages collection.html and museum.html comes from the MoMA website.
 
 
-Bootstrap4 has been used to make the website responsive.
+Bootstrap4 has been used to make the website responsive, but also with the code for the collapsible menu, the cards and some styling.
 
 
 I have then used [TheW3School](https://www.w3schools.com/) website and the book ["Learning Web Design"](https://www.amazon.com/Learning-Web-Design-Beginners-JavaScript-ebook/dp/B07DQ5RZJV) by Jennifer Robbins whenever I had doubts with the proper semantics.
+
+
+[Autoprefixer CSS](https://autoprefixer.github.io/) helped me with CSS vendor.
 
 ### Media
 
