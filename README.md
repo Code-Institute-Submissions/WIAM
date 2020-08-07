@@ -1,8 +1,5 @@
-README.md
-
-
 # Women In Art Museum project.
-
+![Home Page Mockup](assets/images/mockupHomePage.png)
 
 View the live project here. [WIAM](https://marlene32100.github.io/WIAM/)
 
@@ -67,6 +64,7 @@ Images are very important, since the website is about a museum.
 
 
 I have chosen images with strong colours and representing strong personalities, so they suggest the style and the philosphy behind the museum.
+![Booking Page Mockup](assets/images/mockupContact.png)
 
 ### Wireframes
 
@@ -86,6 +84,8 @@ I have used HTML5, CSS3, Bootstrap4.5.0.
 
 
 JavaScript with jQuery only for the collapsible navbar.
+
+[Techsini](http://techsini.com/multi-mockup/index.php) as a mockup generator.
 
 ### Languages Used
 * HTML5

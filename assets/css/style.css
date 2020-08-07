@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Jim+Nightshade&family=Lato:wght@100;300;400;700;900&family=Montserrat:wght@100;200;300;400;500;600;700&display=swap");
 
 * {
-    font-size: 10px;
+  font-size: 10px;
 }
 
 /*---------------------------------------------------Colors*/
@@ -81,7 +81,7 @@ legend.blue {
 }
 
 table {
-    color:#7e7d7d;
+  color: #7e7d7d;
 }
 
 /*---------------------------------------------------Typography*/
@@ -89,7 +89,7 @@ table {
   font-family: "Lato", sans-serif;
   font-weight: 300;
   color: #fafafa;
-  letter-spacing: .4rem;
+  letter-spacing: 0.4rem;
   text-transform: uppercase;
   font-size: 3rem;
 }
@@ -97,7 +97,7 @@ table {
   font-family: "Lato", sans-serif;
   font-weight: 700;
   color: #fafafa;
-  letter-spacing: .4rem;
+  letter-spacing: 0.4rem;
   text-transform: uppercase;
   font-size: 3rem;
 }
@@ -106,7 +106,16 @@ table {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   color: #fafafa;
-  letter-spacing: .4rem;
+  letter-spacing: 0.4rem;
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+.museum {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  color: #fafafa;
+  letter-spacing: 0.4rem;
   text-transform: uppercase;
   font-size: 3rem;
 }
@@ -133,7 +142,7 @@ nav div {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: #fafafa;
-  letter-spacing: .4rem;
+  letter-spacing: 0.4rem;
   text-transform: uppercase;
   font-size: 2rem;
 }
@@ -141,7 +150,7 @@ nav div {
 .text-grid {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  letter-spacing: .4rem;
+  letter-spacing: 0.4rem;
   font-size: 2rem;
   margin: auto 1.5rem;
 }
@@ -150,7 +159,7 @@ nav div {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: #fafafa;
-  letter-spacing: .2rem;
+  letter-spacing: 0.2rem;
   text-transform: uppercase;
   font-size: 1.2rem;
 }
@@ -159,7 +168,7 @@ nav div {
   font-family: "Lato", sans-serif;
   font-weight: 700;
   color: #fafafa;
-  letter-spacing: .8rem;
+  letter-spacing: 0.8rem;
   text-transform: uppercase;
   font-size: 4rem;
   padding: 3rem 0;
@@ -170,7 +179,7 @@ nav div {
   font-family: "Lato", sans-serif;
   font-weight: 700;
   color: #fafafa;
-  letter-spacing: .4rem;
+  letter-spacing: 0.4rem;
   text-transform: uppercase;
   font-size: 2.5rem;
   padding: 3rem 0;
@@ -229,7 +238,7 @@ form {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   color: #fafafa;
-  letter-spacing: .4rem;
+  letter-spacing: 0.4rem;
   text-transform: uppercase;
   font-size: 1.8rem;
   padding: 3rem 0;
@@ -251,18 +260,15 @@ header {
   height: 10vh;
 }
 
-.link-index{
-    display: block;
+.link-index {
+  display: block;
 }
 
 .link-index:hover,
-.link-index:active{
-    text-decoration: none;
-    color: #fafafa;
-}
-
-.link-index:visited{
-    color: #fafafa;
+.link-index:active,
+.link-index:visited {
+  text-decoration: none;
+  color: #fafafa;
 }
 
 .title-museum,
@@ -274,15 +280,14 @@ header {
 .link-index span.red,
 .link-index span.yellow,
 .link-index span.blue {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 .link-index div.red,
 .link-index div.yellow,
 .link-index div.blue {
-    font-size: 3rem;
+  font-size: 3rem;
 }
-
 
 .light {
   font-weight: 300;
@@ -345,7 +350,7 @@ figcaption {
 .blockquote-text {
   color: #fafafa;
   font-family: "Montserrat", sans-serif;
-  letter-spacing: .4rem;
+  letter-spacing: 0.4rem;
   line-height: 2;
   font-size: 2rem;
 }
@@ -366,12 +371,12 @@ hr {
 .title-museum-body div.word-title.red,
 .title-museum-body div.word-title.yellow,
 .title-museum-body div.word-title.blue {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
-.title-museum-body div.white{
-    font-size: 2rem;
-    font-weight: 300;
+.title-museum-body div.white {
+  font-size: 2rem;
+  font-weight: 300;
 }
 
 /*---------------------------------------------------Upcoming Exhibitions*/
@@ -410,53 +415,53 @@ p.text-grid span.d-none.d-lg-block {
 }
 
 address,
-address span.bold{
-    font-size: 1.5rem;
+address span.bold {
+  font-size: 1.5rem;
 }
 
 p.text-grid strong {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 time {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
 table {
-    padding-left: 10rem;
+  padding-left: 10rem;
 }
 
 table th {
-    font-size: 2rem;
-    font-weight: 600;
-    font-family: "Lato", sans-serif;
-    color: #7e7d7d;
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: "Lato", sans-serif;
+  color: #7e7d7d;
 }
 
 table td {
-    font-size: 1.5rem;
-    color: #7e7d7d;
-    font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  color: #7e7d7d;
+  font-family: "Montserrat", sans-serif;
 }
 
 /*.br-menu{
     line-height: 3rem;
 }*/
 
-.menu{
-    text-decoration: none;
-    color: #fafafa;
+.menu {
+  text-decoration: none;
+  color: #fafafa;
 }
 
 a.menu span,
 .icon-menu {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 a.menu:hover,
-a.menu:active{
-    text-decoration: none;
-    color: #7e7d7d;
+a.menu:active {
+  text-decoration: none;
+  color: #7e7d7d;
 }
 
 /*---------------------------------------------------Contact Form*/
@@ -470,13 +475,13 @@ form {
   margin-bottom: 5rem;
 }
 
-.h5-contact{
-    margin-bottom: 3rem;
+.h5-contact {
+  margin-bottom: 3rem;
 }
 
-legend{
-    margin-top: 0;
-    padding-top: 0;
+legend {
+  margin-top: 0;
+  padding-top: 0;
 }
 /*---------------------------------------------------Footer*/
 
@@ -491,39 +496,36 @@ footer {
   padding: 1rem 3rem;
 }
 
-.book-icon{
+.book-icon {
   font-size: 2rem;
   color: #fafafa;
   padding: 0 1rem;
 }
 
 .book-icon:hover,
-.book-icon:active{
-    text-decoration: none;
-    color: #b1afaf;
+.book-icon:active {
+  text-decoration: none;
+  color: #b1afaf;
 }
 
 .link-style:hover,
-.link-style:active{
-    color: #b1afaf;
-    text-decoration: none;
+.link-style:active {
+  color: #b1afaf;
+  text-decoration: none;
 }
 
 .icon:hover,
-.icon:active{
-    text-decoration: none;
-    color: #fafafa;
+.icon:active {
+  text-decoration: none;
+  color: #fafafa;
 }
 
 .title-museum span.red,
 .title-museum span.yellow,
 .title-museum span.blue {
-    font-size: 3rem;
-    font-weight: 400;
+  font-size: 3rem;
+  font-weight: 400;
 }
-
-
-
 
 /*---------------------------------------------------Media Queries*/
 
@@ -533,4 +535,3 @@ footer {
     max-width: 60%;
   }
 }
-

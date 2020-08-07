@@ -1,38 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <title>WIAM Women In Art Museum</title>
+  </head>
 
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="stylesheet" type="text/css"
-		href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
-	<link rel="stylesheet" type="text/css"
-		href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-	<title>WIAM Women In Art Museum</title>
-</head>
-
-<body class="index bg-black">
-	<header class="bg-black fixed-top">
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark-custom">
-			<div class="navbar-brand title-museum-small d-sm-block d-md-none">
-            <a href="index.html" class="link-index">
-				<span class="red">w</span>.<span class="yellow">i</span>.<span
-            class="blue"
-            >a</span>.<span class="light">museum</span>
-            </a>
-			</div>
-
-			<div class="navbar-brand title-museum d-none d-md-block"><a href="index.html" class="link-index">
-				<div class="red">Women</div>
-				<div class="yellow">in</div>
-				<div class="blue">art</div>
-				<div>museum</div>
-                </a>
-			</div>
-
-			<button
+  <body class="index bg-black">
+    <!------------------------------------------------------------------------------Header-->
+    <header class="bg-black fixed-top">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark-custom">
+        <!------------------------------------------------------------------------------Navbar Brand for smaller screens-->
+        <div class="navbar-brand title-museum-small d-sm-block d-md-none">
+          <a href="index.html" class="link-index">
+            <span class="red">w</span>.<span class="yellow">i</span>.<span
+              class="blue"
+              >a</span
+            >.<span class="light">museum</span>
+          </a>
+        </div>
+        <!------------------------------------------------------------------------------Navbar Brand for larger screens-->
+        <div class="navbar-brand title-museum d-none d-md-block">
+          <a href="index.html" class="link-index">
+            <div class="red">Women</div>
+            <div class="yellow">in</div>
+            <div class="blue">art</div>
+            <div>museum</div>
+          </a>
+        </div>
+        <!------------------------------------------------------------------------------Collapsible Menu-->
+        <button
           class="navbar-toggler ml-auto"
           type="button"
           data-toggle="collapse"
@@ -43,164 +52,202 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-			<div class="collapse navbar-collapse" id="navbarNavDropdown">
-				<ul class="navbar-nav ml-auto">
-					<li class="active nav-item">
-						<a href="index.html" class="link-style nav-link">Home</a>
-					</li>
-					<li class="nav-item">
-						<a href="collection.html" class="link-style nav-link">Collection</a>
-					</li>
-					<li class="nav-item">
-						<a href="museum.html" class="link-style nav-link">The Museum</a>
-					</li>
-					<li class="nav-item">
-						<a href="book.html" class="link-style nav-link">Book a visit</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
-	</header>
-
-	<main class="container-fluid">
-		<div class="hero-image">
-			<figure>
-				<img
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <li class="active nav-item">
+              <a href="index.html" class="link-style nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="collection.html" class="link-style nav-link"
+                >Collection</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="museum.html" class="link-style nav-link">The Museum</a>
+            </li>
+            <li class="nav-item">
+              <a href="book.html" class="link-style nav-link">Book a visit</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!------------------------------------------------------------------------------Main-->
+    <main class="container-fluid">
+      <!------------------------------------------------------------------------------Hero-->
+      <div class="hero-image">
+        <figure>
+          <img
             src="assets/images/frida.jpg"
             class="hero-image-style"
             alt="Frida Kahlo photographed by Nickolas-Muray"
           />
-				<figcaption>
-					<small
+          <figcaption>
+            <small
               >Frida Kahlo with Olmec figurine, 1939. Photograph Nickolas Muray.
-              ©Nickolas-Muray-Photo-Archives</small>
-				</figcaption>
-			</figure>
-		</div>
+              ©Nickolas-Muray-Photo-Archives</small
+            >
+          </figcaption>
+        </figure>
+      </div>
+      <!------------------------------------------------------------------------------Blockquote-->
+      <div class="blockquote blockquote-style d-none d-md-block text-center">
+        <blockquote class="blockquote-text">
+          "My illustrious lordship, I’ll show you what a woman can do."
+          <p class="signature">Artemisia Gentileschi</p>
+        </blockquote>
+      </div>
+      <!------------------------------------------------------------------------------Introduction-->
+      <div class="container">
+        <div class="title-museum-body text-center">
+          <div class="word-title red">Women</div>
+          <div class="word-title yellow">in</div>
+          <div class="word-title blue">art</div>
+          <div class="white">museum</div>
+        </div>
+        <h3 class="h3-title">
+          Welcome to a unique museum entirely dedicated to women in art
+        </h3>
+        <hr />
+        <p class="text text-description">
+          A journey through time and space to discover the power of female
+          creativity.
+        </p>
+      </div>
 
-		<div class="blockquote blockquote-style d-none d-md-block text-center">
-			<blockquote class="blockquote-text">
-				"My illustrious lordship, I’ll show you what a woman can do."
-				<p class="signature">Artemisia Gentileschi</p>
-			</blockquote>
-		</div>
-		<div class="container">
-			<div class="title-museum-body text-center">
-				<div class="word-title red">Women</div>
-				<div class="word-title yellow">in</div>
-				<div class="word-title blue">art</div>
-				<div class="white">museum</div>
-			</div>
-			<h3 class="h3-title">
-				Welcome to a unique museum entirely dedicated to women in art
-			</h3>
-			<hr />
-			<p class="text text-description">
-				A journey through time and space to discover the power of female
-				creativity.
-			</p>
-		</div>
-
-
-		<!--UPCOMING EXHIBITIONS-->
-		<section>
-			<h2 class="h2-title">Upcoming exhibitions</h2>
-			<div class="row">
-				<div class="col-12 col-md-6 col-lg-4">
-					<div class="card card-size">
-						<figure>
-							<img
+      <!------------------------------------------------------------------------------Upcoming Exhibitions-->
+      <section>
+        <h2 class="h2-title">Upcoming exhibitions</h2>
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card card-size">
+              <figure>
+                <img
                   src="assets/images/yayoi.jpg"
                   class="card-img-top card-cover"
                   alt="Yayoi Kusama"
                 />
-							<figcaption>
-								<small
-                    >Fotocredits: Courtesy Ota Fine Arts, © YAYOI KUSAMA</small>
-							</figcaption>
-						</figure>
-						<div class="card-body">
-							<h5 class="card-title uppercase">Yayoi Kusama</h5>
-							<p class="card-text">27 September 2020 - 23 December 2020</p>
-							<a href="book.html" class="btn btn-danger uppercase">Book your ticket</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-12 col-md-6 col-lg-4">
-					<div class="card card-size">
-						<figure>
-							<img
+                <figcaption>
+                  <small
+                    >Fotocredits: Courtesy Ota Fine Arts, © YAYOI KUSAMA</small
+                  >
+                </figcaption>
+              </figure>
+              <div class="card-body">
+                <h5 class="card-title uppercase">Yayoi Kusama</h5>
+                <p class="card-text">27 September 2020 - 23 December 2020</p>
+                <a href="book.html" class="btn btn-danger uppercase"
+                  >Book your ticket</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card card-size">
+              <figure>
+                <img
                   src="assets/images/vivienne.jpg"
                   class="card-img-top card-cover"
                   alt="Vivienne Westwood"
                 />
-							<figcaption>
-								<small> Derek Hudson/Getty Images</small>
-							</figcaption>
-						</figure>
-						<div class="card-body">
-							<h5 class="card-title uppercase">Vivienne Westwood</h5>
-							<p class="card-text">02 November 2020 - 02 February 2021.</p>
-							<a href="book.html" class="btn btn-danger uppercase">Book your ticket</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-12 d-sm-block d-md-none d-lg-block col-lg-4">
-					<div class="card card-size">
-						<figure>
-							<img
+                <figcaption>
+                  <small> Derek Hudson/Getty Images</small>
+                </figcaption>
+              </figure>
+              <div class="card-body">
+                <h5 class="card-title uppercase">Vivienne Westwood</h5>
+                <p class="card-text">02 November 2020 - 02 February 2021.</p>
+                <a href="book.html" class="btn btn-danger uppercase"
+                  >Book your ticket</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-12 d-sm-block d-md-none d-lg-block col-lg-4">
+            <div class="card card-size">
+              <figure>
+                <img
                   src="assets/images/janis.jpg"
                   class="card-img-top card-cover"
                   alt="Janis Joplin"
                 />
-							<figcaption>
-								<small>
+                <figcaption>
+                  <small>
                     ©Barry Feinstein Photography Inc. 2019. All rights
-                    reserved</small>
-							</figcaption>
-						</figure>
-						<div class="card-body">
-							<h5 class="card-title uppercase">Janis Joplin</h5>
-							<p class="card-text">05 January 2021 - 15 April 2021</p>
-							<a href="book.html" class="btn btn-danger uppercase">Book your ticket</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-	</main>
+                    reserved</small
+                  >
+                </figcaption>
+              </figure>
+              <div class="card-body">
+                <h5 class="card-title uppercase">Janis Joplin</h5>
+                <p class="card-text">05 January 2021 - 15 April 2021</p>
+                <a href="book.html" class="btn btn-danger uppercase"
+                  >Book your ticket</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!------------------------------------------------------------------------------Footer-->
+    <footer class="bg-black">
+      <div class="text-center text-footer">
+        <h2 class="title-museum">
+          <span class="red">Women</span> <span class="yellow">In</span>
+          <span class="blue">Art</span> Museum
+        </h2>
+        <!------------------------------------------------------------------------------Contact links-->
+        <p class="text">
+          <a href="book.html" class="link-style bold"> Book now your visit!</a>
+          <a href="tel:000-123-45-67" class="fa fa-phone book-icon"></a
+          ><a
+            href="mailto:info@womeninart.se"
+            class="fa fa-envelope-open book-icon"
+          ></a>
+        </p>
+        <!------------------------------------------------------------------------------Social Icons-->
+        <div class="social">
+          <p class="social-text">Stay updated with all our news:</p>
+          <a
+            href="https://facebook.com"
+            class="fa fa-facebook icon"
+            target="_blank"
+          ></a>
+          <a
+            href="https://twitter.com"
+            class="fa fa-twitter icon"
+            target="_blank"
+          ></a>
+          <a
+            href="https://instagram.com"
+            class="fa fa-instagram icon"
+            target="_blank"
+          ></a>
+          <a
+            href="https://youtube.com"
+            class="fa fa-youtube icon"
+            target="_blank"
+          ></a>
+        </div>
+        <small>&copy;KatiaDB 2020</small>
+      </div>
+    </footer>
 
-	<footer class="bg-black">
-		<div class="text-center text-footer">
-			<h2 class="title-museum">
-				<span class="red">Women</span> <span class="yellow">In</span>
-				<span class="blue">Art</span> Museum
-			</h2>
-			<p class="text">
-				<a href="book.html" class="link-style bold"> Book now your visit!</a>
-                <a href="tel:000-123-45-67" class="fa fa-phone book-icon"></a><a href="mailto:info@womeninart.se" class="fa fa-envelope-open book-icon"></a>
-			</p>
-            
-			<div class="social">
-				<p class="social-text">Stay updated with all our news:</p>
-				<a href="https://facebook.com" class="fa fa-facebook icon" target="_blank"></a>
-				<a href="https://twitter.com" class="fa fa-twitter icon" target="_blank"></a>
-				<a href="https://instagram.com" class="fa fa-instagram icon" target="_blank"></a>
-				<a href="https://youtube.com" class="fa fa-youtube icon" target="_blank"></a>
-			</div>
-			<small>&copy;KatiaDB 2020</small>
-		</div>
-	</footer>
-
-	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-	</script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-	</script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-	</script>
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
