@@ -30,7 +30,7 @@ The museum wants to be inclusive as much as it can and make people feel comforta
 
 There are links throughout the websites that allow users to get in touch with the museum with just one click. 
 
-In the footer, but also in the Museum page, there are two icons with a direct link for a quick contact. 
+In the footer, but also in the Museum page, there are two icons with a direct link for a quick contact: 
 
 A phone icon that opens automatically a window for a phone call, and a mail icon with a mailto link.
 
@@ -41,6 +41,16 @@ The layout will be simple and modern. Images plays a huge role, since one of the
 
 
 As I was working on the code, I suddenly realized that the layout I planned with my wireframe was not so appealing as I thought it would be. I changed it by removing a section and re-placing it with the Upcoming Exhibitions cards.
+
+One issue I had was the navbar brand. I had a specific idea in mind, I wanted that the words "Women in Art" had different colours (the three colours that are the leitmotiv of all the website), but I also wanted that every single word had the first letter capitalized. The only way I found was to wrap each word in a div, and then I styled them. I could have used some graphic program to get a image with the logo, but I wanted to challenge myself a little bit by trying to solve the problem only with CSS.
+
+## Features to implement
+
+In the future I would like to create a better Booking page adding a e-shop where people can buy the tickets and pay them immediately, but also buy merchandise such as books, posters, etc.
+
+It could be nice to add extra pages with videos of the past exhibitions, interviews, and maybe add a page for each upcoming exhibitions where people can find more detailed infos.
+
+I think that a downloadable map of the museum and the area outside could be extremely useful for visitors that actually want to visit the museum. In this way they can plan in advance the tour and also have a map with all the parking places that are close to the museum.
 
 #### Colour Scheme
 
