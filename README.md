@@ -190,11 +190,17 @@ Images have been taken from the web. Mostly from [Unsplash](https://unsplash.com
 
 The bistro menu pdf has been taken from the [Mandarin Bar & Bistro](https://www.mandarinoriental.it/milan/la-scala/fine-dining/restaurants/italian-cuisine/mandarin-bar-and-bistrot) in Milan.
 
+
 The [Code Institute](https://github.com/Code-Institute-Solutions/SampleREADME) provided the structure for the README.md file.
+
 
 The UDX folder and files structure have been provided by my mentor [Spencer Barriball](https://github.com/5pence/monkees-project/tree/master/user-design-experience).
 
+
 The code for the Upcoming Exhibitions cards, and the collapsible navigation menu, have been taken from [Bootstrap](https://getbootstrap.com/).
+
+
+The address used  in the website refers to the [National Museum](https://www.nationalmuseum.se/) in Stockholm.
 
 ### Code
 
