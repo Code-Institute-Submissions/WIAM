@@ -15,6 +15,12 @@ The museum wants to be inclusive as much as it can and make people feel comforta
 ## User Experience (UX)
 
 
+* [Strategy Plane](UDX/strategy-plane/strategy-plane.pdf)
+* [Scope Plane](UDX/scope-plane/scope-plane.pdf)
+* [Structure Plane](UDX/structure-plane/structure-plane.pdf)
+* [Skeleton Plane](UDX/skeleton-plane/skeleton-plane.pdf)
+
+
 ### User stories
 
 #### First Time Visitor Goals
