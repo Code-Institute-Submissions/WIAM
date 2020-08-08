@@ -60,7 +60,14 @@ I think that a downloadable map of the museum and the area outside could be extr
 
 #### Colour Scheme
 
-I have decided to use a black background and a combination of colours that are repeated throughout the website.
+I have decided to use a black background which leave all the attention to the images and the content.
+The first shade of black I  have used was a default #000000, but the testing phase with potential users of the website suggested that a lighter shade of black would have been better.
+I changed #000000 with #111111.
+
+
+I then used a combination of colours (pale red, pale yellow and pale blue) that are repeated throughout the website.
+
+Light gray has been used on icons or as hover effect on links. This colour has also been used on those areas where the background is yellow, because white was not easy at all to read.
 
 
 The colours used are: 
@@ -152,6 +159,10 @@ I have used [AmIResponsive?](http://ami.responsivedesign.is/) for a quick previe
 I have asked to relatives and friends to check the website on their own device.
 Everyone had a good User Experience, but one thing that was missing in my project and the testing process pointed out, was that usually people expect the navbar brand to be a link that re-directs on the home page.
 I then added this feature.
+One of the last feedbacks I got before submitting the project, has been a feedback on the gradient of black that I used as a background.
+The black I chose was a deep black, but the feedback suggested that a slightly lighter shade of black would have been more sophisticated.
+I tried a #111111 instead of #000000 and actually it looked prettier.
+I decided to keep this change.
 
 ---
 
@@ -181,7 +192,7 @@ If you need to work on this code on your own, follow these steps:
 
 ### Local Clone
 
-To make a local clone of the site, just follow these steps:
+To make a local clone of the site, just follow these stepsg:
 
 * Log in to your GitHub;
 * Under your repository section, select the repo that you need;
