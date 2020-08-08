@@ -181,7 +181,7 @@ If you need to work on this code on your own, follow these steps:
 
 ### Local Clone
 
-To make a local clone of the site, just follow these steps after forking the code:
+To make a local clone of the site, just follow these steps:
 
 * Log in to your GitHub;
 * Under your repository section, select the repo that you need;
