@@ -173,6 +173,17 @@ nav div {
   text-align: center;
 }
 
+.contact-invitation{
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  color: #fafafa;
+  letter-spacing: 0.8rem;
+  text-transform: uppercase;
+  font-size: 2rem;
+  padding: 3rem 0;
+  text-align: center;
+}
+
 .h3-title {
   font-family: "Lato", sans-serif;
   font-weight: 700;
@@ -203,6 +214,11 @@ nav div {
 h5 {
   font-family: "Lato", sans-serif;
   font-weight: 700;
+}
+
+.h5-contact {
+    font-size: 2rem;
+    color: #fafafa;
 }
 
 .h5-title {
@@ -268,6 +284,13 @@ header {
 
 .link-index {
   display: block;
+  text-decoration: none;
+}
+
+.light {
+  font-weight: 300;
+  font-size: 2rem;
+  color: #fafafa;
 }
 
 .link-index:hover,
@@ -293,11 +316,6 @@ header {
 .link-index div.yellow,
 .link-index div.blue {
   font-size: 3rem;
-}
-
-.light {
-  font-weight: 300;
-  font-size: 2rem;
 }
 
 ul li {
@@ -384,7 +402,7 @@ hr {
 .title-museum-body div.white {
   font-size: 2rem;
   font-weight: 300;
-}
+} 
 
 /*---------------------------------------------------Upcoming Exhibitions*/
 .upcoming {

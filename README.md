@@ -60,9 +60,11 @@ I think that a downloadable map of the museum and the area outside could be extr
 
 #### Colour Scheme
 
+A very nice article by Olivier Berni appeared on [Uxdesign.cc](https://uxdesign.cc/the-past-present-and-future-of-dark-mode-9254f2956ec7) helped me understanding deeply the benefits of a dark background.
+
 I have decided to use a black background which leave all the attention to the images and the content.
 The first shade of black I  have used was a default #000000, but the testing phase with potential users of the website suggested that a lighter shade of black would have been better.
-I changed #000000 with #111111.
+I changed #000000 with #121212, which is not so strong on the eyes and gives a better reading experience.
 
 
 I then used a combination of colours (pale red, pale yellow and pale blue) that are repeated throughout the website.
@@ -223,9 +225,6 @@ The [Code Institute](https://github.com/Code-Institute-Solutions/SampleREADME) p
 The UDX folder and files structure have been provided by my mentor [Spencer Barriball](https://github.com/5pence/monkees-project/tree/master/user-design-experience).
 
 
-The code for the Upcoming Exhibitions cards, and the collapsible navigation menu, have been taken from [Bootstrap](https://getbootstrap.com/).
-
-
 The address used  in the website refers to the [National Museum](https://www.nationalmuseum.se/) in Stockholm.
 
 ### Code
@@ -237,7 +236,10 @@ I thought these two elements were really nice and user friendly.
 The idea for the layout in the pages collection.html and museum.html comes from the MoMA website.
 
 
-Bootstrap4 has been used to make the website responsive, but also with the code for the collapsible menu, the cards and some styling.
+[Bootstrap](https://getbootstrap.com/) has been used to make the website responsive, but also with the code for the collapsible menu, the cards, buttons and some styling. However, I have tried to customize also Bootstrap to make the website more mine.
+
+
+The choice of colour for the dark background in the form has been helped with [Color-Hex.com](https://www.color-hex.com/color/121212).
 
 
 I have then used [TheW3School](https://www.w3schools.com/) website and the book ["Learning Web Design"](https://www.amazon.com/Learning-Web-Design-Beginners-JavaScript-ebook/dp/B07DQ5RZJV) by Jennifer Robbins whenever I had doubts with the proper semantics.
