@@ -510,9 +510,12 @@ form {
   margin-bottom: 3rem;
 }
 
-input:focus {
+input:focus,
+input:hover,
+textarea:focus,
+textarea:hover {
   background-color: #b1afaf;
-  border: 1px solid #fafafa;
+  border: 3px solid #fafafa;
 }
 
 
@@ -566,5 +569,8 @@ footer {
   .form-group-style {
     margin: 0 auto;
     max-width: 60%;
+    padding-right: 10rem;
+    padding-left: 10rem;
   }
 }
+
