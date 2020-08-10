@@ -129,15 +129,7 @@ One issue I had was the navbar brand. I had a specific idea in mind, I wanted th
 Responsiveness has been achieved by using a mobile-first approach, adding Bootstrap and then perfectioning with media queries.
 
 
-## Features to implement
-
-In the future I would like to create a better Booking page adding a e-shop where people can buy the tickets and pay them immediately, but also buy merchandise such as books, posters, etc.
-
-It could be nice to add extra pages with videos of the past exhibitions, interviews, and maybe add a page for each upcoming exhibitions where people can find more detailed infos.
-
-I think that a downloadable map of the museum and the area outside could be extremely useful for visitors that actually want to visit the museum. In this way they can plan in advance the tour and also have a map with all the parking places that are close to the museum.
-
-#### Colour Scheme
+### Colour Scheme
 
 A very nice article by Olivier Berni appeared on [Uxdesign.cc](https://uxdesign.cc/the-past-present-and-future-of-dark-mode-9254f2956ec7) helped me understanding deeply the benefits of a dark background.
 
@@ -160,6 +152,7 @@ The colours used are:
 
 At the beginning I have used the color #ff8080 for the button "Book Now" background, but then I realized it was too pale for a call to action. I decided to change it with a red using the Bootstrap property btn-danger.
 
+
 ### Typography
 
 Montserrat and Lato are the fonts used in the website. 
@@ -171,13 +164,16 @@ They are easy to read as well.
 
 I have used only in the blockquote the font Jim Nightshade as the font for the signature. It is cursive and it suggests a hand-written signature.
 
+
 ### Imagery
 
 Images are very important, since the website is about a museum.
 
 
 I have chosen images with strong colours and representing strong personalities, so they suggest the style and the philosphy behind the museum.
+
 ![Booking Page Mockup](assets/images/mockup-contact.png)
+
 
 ### Wireframes
 
@@ -192,15 +188,27 @@ The Museum Page repeats the same layout in Collection, with of course different 
 
 [The Collection wireframe](UDX/skeleton-plane/Collection.pdf)
 
+
 ### Features
+
 Responsive on all device sizes.
 
 
 I played with content hiding a few elements or words on smaller screens, so it looks better and the user doesn't get annoyed.
 
+
+## Features to implement
+
+In the future I would like to create a better Booking page adding a e-shop where people can buy the tickets and pay them immediately, but also buy merchandise such as books, posters, etc.
+
+It could be nice to add extra pages with videos of the past exhibitions, interviews, and maybe add a page for each upcoming exhibitions where people can find more detailed infos.
+
+I think that a downloadable map of the museum and the area outside could be extremely useful for visitors that actually want to visit the museum. In this way they can plan in advance the tour and also have a map with all the parking places that are close to the museum.
+
 ---
 
 ## Technologies Used
+
 I have used HTML5, CSS3, Bootstrap4.5.0.
 
 
@@ -209,10 +217,12 @@ JavaScript with jQuery only for the collapsible navbar.
 [Techsini](http://techsini.com/multi-mockup/index.php) as a mockup generator.
 
 ### Languages Used
+
 * HTML5
 * CSS3
 
 ### Frameworks, Libraries & Programs Used
+
 * Bootstrap 4.5.0.
 * Google Fonts
 * Font Awesome 4.7.0.
@@ -227,6 +237,7 @@ JavaScript with jQuery only for the collapsible navbar.
 ---
 
 ## Testing
+
 I have tested with the W3C Markup Validator and W3C CSS Validator Services every time I finished a section, or if I added some changes. 
 This helped me to find immediately errors and fix them.
 
@@ -242,12 +253,13 @@ Everyone had a good User Experience, but one thing that was missing in my projec
 I then added this feature.
 One of the last feedbacks I got before submitting the project, has been a feedback on the gradient of black that I used as a background.
 The black I chose was a deep black, but the feedback suggested that a slightly lighter shade of black would have been more sophisticated.
-I tried a #111111 instead of #000000 and actually it looked prettier.
+I tried first a #111111 instead of #000000, but then I opted for a #121212 and actually it looked prettier.
 I decided to keep this change.
 
 ---
 
 ## Deployment
+
 
 ### GitHub Pages
 
@@ -270,6 +282,7 @@ If you need to work on this code on your own, follow these steps:
 * Find the repository you are looking for;
 * On the top-right of the page you will find a button with the name "Fork";
 * Click on it and it will automatically fork the code to your GitHub.
+
 
 ### Local Clone
 
@@ -306,6 +319,7 @@ The UDX folder and files structure have been provided by my mentor [Spencer Barr
 
 The address used  in the website refers to the [National Museum](https://www.nationalmuseum.se/) in Stockholm.
 
+
 ### Code
 
 The idea for the collapsible navabr comes from the Whiskey Drop project done with the Code Institute, and also the hero image which has been used in the Love Running project.
@@ -326,9 +340,12 @@ I have then used [TheW3School](https://www.w3schools.com/) website and the book 
 
 [Autoprefixer CSS](https://autoprefixer.github.io/) helped me with CSS vendor.
 
+
 ### Media
 
 I took the pictures from [Unsplash](https://unsplash.com/), but also from various websites. I have added a figcaption for those pictures that have copyrights.
 
+
 ### Acknowledgements
+
 My Mentor Spencer Barriball for his feedback and precious help.
