@@ -11,6 +11,82 @@ The final user of the website is ideally a millennial person, mostly a woman, wh
 The museum wants to be inclusive as much as it can and make people feel comfortable, so the style will be modern, friendly and strong at the same time.
 
 
+The website has four pages:
+
+
+* [Home Page](https://marlene32100.github.io/WIAM/)
+
+
+Below a sticky header with navbar and menu, there is a hero image with Frida Kahlo, a mexican artist well known as symbol of a independent and revolutionary woman.
+I chose the image where she is holding an ancient statue because I thought it gave the idea of a continuum in art through times.
+
+
+A blockquote welcomes users with a strong citation by baroque painter Artemisia Gentileschi: "My illustrious lordship, I’ll show you what a woman can do."
+I think this explains really well what the purpose of the museum is.
+
+
+A section with three cards shows the upcoming exhibitions. I chose three images of well known female artist with strong personalities, one for a different kind of art.
+Yayoi Kusama for visual art, Vivienne Westwood for fashion, Janis Joplin for music.
+The colors of the pictures match the style of the website as well, so everything is coherent and armonic.
+
+
+* [The Collection](https://marlene32100.github.io/WIAM/collection.html)
+
+
+The second page is about the permanent collection of the museum.
+
+Here I chose to alternate images with a short text, where people can understand that in the museum they will find mostly paintings, both recent and from older times, and photographs.
+
+The images keep the same style as in the Home Page, since they are about female artists with strong personalities.
+
+I chose Tamara de Lempicka, Georgia o'Keefe, Coco Chanel, Marina Abramovic, and again Artemisia Gentileschi and Frida Kahlo.
+
+The Upcoming Exhibitions cards are repeated also in this page.
+
+
+* [The Museum](https://marlene32100.github.io/WIAM/museum.html)
+
+
+In this page there is the same layout as in The Collection page. But here we find all those useful informations that a user might need before planning a visit.
+
+Here we find the address, with direct links to Google Maps, a direct link that opens a phone call with the museum, a direct link for email.
+
+Then we find opening hours and prices.
+
+A mention is related to the bistro inside the museum, with a downloadable menu. The user can plan in advance if he/she wants to stay longer also for eating or drinking.
+
+Last, but not least, an important mention to facilities for kids, explaining that they are welcome and that inside the museum there is a special room dedicated to smaller kids, where they can change diapers or where mums can breastfeed.
+
+Upcoming Exhibitions cards are placed also in this page before the footer.
+
+
+* [Book a Visit](https://marlene32100.github.io/WIAM/book.html)
+
+
+Here a colorful and funny image of another female icon, Iris Apfel, welcomes users inviting them to fill out the form for bookings or just questions.
+
+The form is structured in three sections: personal data (with required fields), booking (number of tickets and for which exhibition), message (an empty text area where users can write anything they want to say).
+
+After submitting, a message appears which says: "Thank you! Our amazing customer service will contact you soon".
+
+
+The footer has links to the booking page, but also to social media.
+
+
+Each icon on the website changes color on hover or when active, so it is more user friendly.
+
+
+I have tried to keep a very easy navigation style. First of all, the sticky header allows user to navigate on other pages without even scrolling to the top.
+
+For the same reason, the footer has a link to the booking section.
+
+I decided to place this link here because usually when a user scroll down a page, after reading the informations provided in the body and looking at the images, is still excited and more prone to buy the experience.
+
+The Upcoming Exhibitions cards have the same reasoning behind, that is why they have each one a button with a call to action "Book your ticket" and they are also placed at the bottom of the main area of the page.
+
+
+
+
 ---
 ## User Experience (UX)
 
@@ -43,12 +119,15 @@ A phone icon that opens automatically a window for a phone call, and a mail icon
 
 ### Design
 
-The layout will be simple and modern. Images plays a huge role, since one of the goals of the website is to be visually appealing to get users book a visit to the museum.
+The layout is be simple and modern. Images plays a huge role, since one of the goals of the website is to be visually appealing to get users book a visit to the museum.
 
 
 As I was working on the code, I suddenly realized that the layout I planned with my wireframe was not so appealing as I thought it would be. I changed it by removing a section and re-placing it with the Upcoming Exhibitions cards.
 
 One issue I had was the navbar brand. I had a specific idea in mind, I wanted that the words "Women in Art" had different colours (the three colours that are the leitmotiv of all the website), but I also wanted that every single word had the first letter capitalized. The only way I found was to wrap each word in a div, and then I styled them. I could have used some graphic program to get a image with the logo, but I wanted to challenge myself a little bit by trying to solve the problem only with CSS.
+
+Responsiveness has been achieved by using a mobile-first approach, adding Bootstrap and then perfectioning with media queries.
+
 
 ## Features to implement
 
@@ -108,10 +187,10 @@ The layout on the Home Page goes also on Booking, with the only difference that 
 The Museum Page repeats the same layout in Collection, with of course different content.
 
 
-[Home Page](UDX/skeleton-plane/Home.pdf)
+[Home Page wireframe](UDX/skeleton-plane/Home.pdf)
 
 
-[The Collection](UDX/skeleton-plane/Collection.pdf)
+[The Collection wireframe](UDX/skeleton-plane/Collection.pdf)
 
 ### Features
 Responsive on all device sizes.
