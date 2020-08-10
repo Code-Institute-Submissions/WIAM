@@ -1,5 +1,5 @@
 # Women In Art Museum project.
-![Home Page Mockup](assets/images/mockupHomePage.png)
+![Home Page Mockup](assets/images/mockup-home-page.png)
 
 View the live project here. [WIAM](https://marlene32100.github.io/WIAM/)
 
@@ -177,7 +177,7 @@ Images are very important, since the website is about a museum.
 
 
 I have chosen images with strong colours and representing strong personalities, so they suggest the style and the philosphy behind the museum.
-![Booking Page Mockup](assets/images/mockupContact.png)
+![Booking Page Mockup](assets/images/mockup-contact.png)
 
 ### Wireframes
 
