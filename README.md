@@ -307,7 +307,25 @@ Done!
 The inspiration for the layout on pages collection.html and museum.html has been taken from the [MoMA](https://www.moma.org/) website.
 
 
-Images have been taken from the web. Mostly from [Unsplash](https://unsplash.com/). The other images all have a figcaption with credits to the author.
+Images have been taken from the web. Mostly from [Unsplash](https://unsplash.com/).
+
+
+In the Collection page I have used those pictures (click on the name to visit the source):
+
+* [Tamara de Lempicka](https://www.giacomochiodini.it/wp-content/uploads/2014/01/tamara_de_lempicka_11.jpg);
+
+* [Georgia o'Keeffe](https://www.biography.com/artist/georgia-okeeffe);
+
+* [Coco Chanel](https://www.notizie.it/cultura/2019/08/19/coco-chanel-frasi-biografia/);
+
+* [Marina Abramovic](https://www.animafaarte.it/morto-ulay-il-piu-famoso-ex-della-storia-dellarte-marina-abramovic-e-la-storia-di-un-amore-immaginale/);
+
+* [Artemisia Gentileschi](https://en.wikipedia.org/wiki/Artemisia_Gentileschi);
+
+* [Frida Kahlo](https://www.greenme.it/vivere/arte-e-cultura/faces-of-frida-kahlo-galleria-web/).
+
+
+The other images all have a figcaption with credits to the author.
 
 
 The bistro menu pdf has been taken from the [Mandarin Bar & Bistro](https://www.mandarinoriental.it/milan/la-scala/fine-dining/restaurants/italian-cuisine/mandarin-bar-and-bistrot) in Milan.
