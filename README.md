@@ -128,6 +128,8 @@ One issue I had was the navbar brand. I had a specific idea in mind, I wanted th
 
 Responsiveness has been achieved by using a mobile-first approach, adding Bootstrap and then perfectioning with media queries.
 
+The menu icon on smaller screens was not very visible. I decided to make the button a little bit bigger and to change the border color with #fafafa.
+
 
 ### Colour Scheme
 

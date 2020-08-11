@@ -332,6 +332,12 @@ ul li {
   font-weight: 700;
 }
 
+button.navbar-toggler.ml-auto{
+    border: 1px solid #fafafa;
+    height: 3rem;
+    border-left-style: groove;
+}
+
 /*---------------------------------------------------Main*/
 
 main {
